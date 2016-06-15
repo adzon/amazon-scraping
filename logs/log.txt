@@ -1,0 +1,1617 @@
+2015-12-06 20:05:38 [-] Getting the HTML for Brand
+2015-12-06 20:05:38 [-] Getting the Category
+2015-12-06 20:05:38 [-] Getting the Item Name
+2015-12-06 20:05:38 [-] Getting the Brand Name
+2015-12-06 20:05:38 [-] Getting the Brand Link
+2015-12-06 20:05:38 [-] Getting the Total Reviews
+2015-12-06 20:05:38 [-] Getting the Html For Image
+2015-12-06 20:05:38 [-] Getting the Html For Item Review
+2015-12-06 20:05:38 [!] UPC not Found
+2015-12-06 20:05:38 [-] Executing SQL query: SELECT * FROM items WHERE id='B00XKIUF9A'
+2015-12-06 20:05:38 [-] Item Updated
+2015-12-06 20:05:38 [-] Executing SQL query: INSERT INTO items(id,url,title,image,category,brand_name,review_count,rating,state,referer_type,referer_id,upc,run_timestamp,collection_timestamp) 
+	VALUES('B00XKIUF9A','http://www.amazon.com/dp/B00XKIUF9A','
+      Heat Resistant Silicone Non Stick Baking Mat Grey 12 5/8'' X 9&quot;
+      
+      
+      
+      
+      
+      
+      
+    ','http://ecx.images-amazon.com/images/I/51d6%2B9ZCl4L._SX300_QL70_.jpg','Kitchen & Dining','Ayrons Kitchen','30','
+','unused','item','B00XKIUF9A','',NOW(),NOW())
+2015-12-06 20:05:38 [-] Item Recorded
+2015-12-06 20:05:38 [-] Executing SQL query: SELECT * FROM brands WHERE referer_id='B00XKIUF9A'
+2015-12-06 20:05:38 [-] Executing SQL query: INSERT INTO brands(name,url,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('Ayrons Kitchen','http://www.amazon.com/Ayrons-Kitchen/b/ref=bl_dp_s_web_12585002011?ie=UTF8&amp;node=12585002011&amp;field-lbr_brands_browse-bin=Ayrons+Kitchen','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:05:38 [-] Brand Recorded
+2015-12-06 20:05:42 [-] Getting Page : http://www.amazon.com/product-reviews/ B00XKIUF9A
+2015-12-06 20:05:50 [-] Getting Page : http://www.amazon.com/product-reviews/B00XKIUF9A/?sortBy=recent&pageNumber=1
+2015-12-06 20:05:50 [-] Getting The User ID
+2015-12-06 20:05:50 [-] Getting Review Rating
+2015-12-06 20:05:50 [-] Getting Review Date
+2015-12-06 20:05:50 [-] Getting The Review Text
+2015-12-06 20:05:50 [-] Getting Review Title
+2015-12-06 20:05:57 [-] Getting the Profile HTML for Reviewer ID : A1POPN67P674PK
+2015-12-06 20:05:57 [-] Getting the Reviewer Name.
+2015-12-06 20:05:57 [-] Getting the Country Name.
+2015-12-06 20:05:57 [!] No Location Found.
+2015-12-06 20:05:57 [-] Getting Total Review Count
+2015-12-06 20:05:57 [-] Executing SQL query: SELECT * FROM users WHERE id='A1POPN67P674PK'
+2015-12-06 20:05:57 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1POPN67P674PK','http://www.amazon.com/gp/pdp/profile/A1POPN67P674PK','','Hollywood1979','170','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:05:57 [-] User Recorded
+2015-12-06 20:05:57 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R2KIDWMDKGLBUX'
+2015-12-06 20:05:57 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2KIDWMDKGLBUX','http://www.amazon.com/gp/customer-reviews/R2KIDWMDKGLBUX','B00XKIUF9A','A1POPN67P674PK','5.0','2015-12-3 00:00:00','I love using my non stick baking mat! It is so much more efficient than trying to clean up a mess on the counter, pick up chopped vegetables or other ingredients to put them into a bowl or clean pots or pans! With this, you can chop your ingredients right on the mat, or use it to roll out dough, then pick it up and dump your ingredients that you just cut/diced right into a bowl, pot or whatever it is you are making. I also love being able to bake right on the mat so I don\'t have to scrub pots or pans when I\'m done! I was amazed that I could use it in the microwave and freezer as well! The best part is there is virtually no clean up! Just rinse off the mat and your done! I\'m so glad I got the chance to get one of these and definitely recommend this product to anyone who cooks or bakes! I received this product at a promotional rate in exchange for my honest and unbiased review. My review is solely based off of my opinions of my experience with the product.','Very Efficient and Versatile Non Stick Baking Mat','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:05:57 [-] Review Recorded
+2015-12-06 20:05:57 [-] Getting The User ID
+2015-12-06 20:05:57 [-] Getting Review Rating
+2015-12-06 20:05:57 [-] Getting Review Date
+2015-12-06 20:05:57 [-] Getting The Review Text
+2015-12-06 20:05:57 [-] Getting Review Title
+2015-12-06 20:06:05 [-] Getting the Profile HTML for Reviewer ID : A2V1Q7H96TCYX8
+2015-12-06 20:06:05 [-] Getting the Reviewer Name.
+2015-12-06 20:06:05 [-] Getting the Country Name.
+2015-12-06 20:06:05 [!] No Location Found.
+2015-12-06 20:06:05 [-] Getting Total Review Count
+2015-12-06 20:06:05 [-] Executing SQL query: SELECT * FROM users WHERE id='A2V1Q7H96TCYX8'
+2015-12-06 20:06:05 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2V1Q7H96TCYX8','http://www.amazon.com/gp/pdp/profile/A2V1Q7H96TCYX8','','Tamara D','179','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:06:05 [-] User Recorded
+2015-12-06 20:06:05 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R1RIC7NJX2MHIA'
+2015-12-06 20:06:05 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R1RIC7NJX2MHIA','http://www.amazon.com/gp/customer-reviews/R1RIC7NJX2MHIA','B00XKIUF9A','A2V1Q7H96TCYX8','5.0','2015-12-1 00:00:00','My girls and I love using this silicone mat when baking.  It\'s great for batches of cookies, dinner rolls or any other small baking you need done.  Yes, this is on the smaller side, but the dimensions are listed in the product description.  Nothing sticks to the mat and it\'s super easy to clean up. This is a must have for easy use and minimal clean up in the kitchen!','My girls and I love using this silicone mat when baking','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:06:05 [-] Review Recorded
+2015-12-06 20:06:05 [-] Getting The User ID
+2015-12-06 20:06:05 [-] Getting Review Rating
+2015-12-06 20:06:05 [-] Getting Review Date
+2015-12-06 20:06:05 [-] Getting The Review Text
+2015-12-06 20:06:05 [-] Getting Review Title
+2015-12-06 20:06:13 [-] Getting the Profile HTML for Reviewer ID : A398ZE0LY4C6JY
+2015-12-06 20:06:13 [-] Getting the Reviewer Name.
+2015-12-06 20:06:13 [-] Getting the Country Name.
+2015-12-06 20:06:13 [-] Getting the Location.
+2015-12-06 20:06:13 [-] Getting Total Review Count
+2015-12-06 20:06:13 [-] Executing SQL query: SELECT * FROM users WHERE id='A398ZE0LY4C6JY'
+2015-12-06 20:06:13 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A398ZE0LY4C6JY','http://www.amazon.com/gp/pdp/profile/A398ZE0LY4C6JY','Arvada, CO
+','Seth T Wilcock','38','563007','unused','item','blank',NOW(),NOW())
+2015-12-06 20:06:13 [-] User Recorded
+2015-12-06 20:06:13 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='REZHQSQDE3UMR'
+2015-12-06 20:06:13 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('REZHQSQDE3UMR','http://www.amazon.com/gp/customer-reviews/REZHQSQDE3UMR','B00XKIUF9A','A398ZE0LY4C6JY','5.0','2015-11-30 00:00:00','Works great in the kitchen, so much easier to clean than a pan','Great in the oven','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:06:13 [-] Review Recorded
+2015-12-06 20:06:13 [-] Getting The User ID
+2015-12-06 20:06:13 [-] Getting Review Rating
+2015-12-06 20:06:13 [-] Getting Review Date
+2015-12-06 20:06:13 [-] Getting The Review Text
+2015-12-06 20:06:13 [-] Getting Review Title
+2015-12-06 20:06:25 [-] Getting the Profile HTML for Reviewer ID : A1VJE8OQVITT8N
+2015-12-06 20:06:25 [-] Getting the Reviewer Name.
+2015-12-06 20:06:25 [-] Getting the Country Name.
+2015-12-06 20:06:25 [-] Getting the Location.
+2015-12-06 20:06:25 [-] Getting Total Review Count
+2015-12-06 20:06:25 [-] Executing SQL query: SELECT * FROM users WHERE id='A1VJE8OQVITT8N'
+2015-12-06 20:06:25 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1VJE8OQVITT8N','http://www.amazon.com/gp/pdp/profile/A1VJE8OQVITT8N','Olympia, WA
+','Jessie','79','1062855','unused','item','blank',NOW(),NOW())
+2015-12-06 20:06:25 [-] User Recorded
+2015-12-06 20:06:25 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='ROR18SNETHZP9'
+2015-12-06 20:06:25 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('ROR18SNETHZP9','http://www.amazon.com/gp/customer-reviews/ROR18SNETHZP9','B00XKIUF9A','A1VJE8OQVITT8N','5.0','2015-11-30 00:00:00','Great baking mat! Fits smaller pans but can also be used on a large pan. Washes great in both the sink and in the dishwasher.','great baking mat, makes clean up eaasy!','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:06:25 [-] Review Recorded
+2015-12-06 20:06:25 [-] Getting The User ID
+2015-12-06 20:06:25 [-] Getting Review Rating
+2015-12-06 20:06:25 [-] Getting Review Date
+2015-12-06 20:06:25 [-] Getting The Review Text
+2015-12-06 20:06:25 [-] Getting Review Title
+2015-12-06 20:06:33 [-] Getting the Profile HTML for Reviewer ID : A2JD21G9MZI84T
+2015-12-06 20:06:33 [-] Getting the Reviewer Name.
+2015-12-06 20:06:33 [-] Getting the Country Name.
+2015-12-06 20:06:33 [!] No Location Found.
+2015-12-06 20:06:33 [-] Getting Total Review Count
+2015-12-06 20:06:33 [-] Executing SQL query: SELECT * FROM users WHERE id='A2JD21G9MZI84T'
+2015-12-06 20:06:33 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2JD21G9MZI84T','http://www.amazon.com/gp/pdp/profile/A2JD21G9MZI84T','','Lindsey H.','77','132949','unused','item','blank',NOW(),NOW())
+2015-12-06 20:06:33 [-] User Recorded
+2015-12-06 20:06:33 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R1KKDGHILO6GIC'
+2015-12-06 20:06:33 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R1KKDGHILO6GIC','http://www.amazon.com/gp/customer-reviews/R1KKDGHILO6GIC','B00XKIUF9A','A2JD21G9MZI84T','5.0','2015-11-30 00:00:00','This is a great mat.  Honestly it is on the smaller side, but it does the trick for small jobs, as its non stick and easy clean up.\n\n*i was offered this product for a discount in exchange for my honest review. All thoughts are my own.','I like it','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:06:33 [-] Review Recorded
+2015-12-06 20:06:33 [-] Getting The User ID
+2015-12-06 20:06:33 [-] Getting Review Rating
+2015-12-06 20:06:33 [-] Getting Review Date
+2015-12-06 20:06:33 [-] Getting The Review Text
+2015-12-06 20:06:33 [-] Getting Review Title
+2015-12-06 20:06:42 [-] Getting the Profile HTML for Reviewer ID : A3NTBS9QD6LRRU
+2015-12-06 20:06:42 [-] Getting the Reviewer Name.
+2015-12-06 20:06:42 [-] Getting the Country Name.
+2015-12-06 20:06:42 [!] No Location Found.
+2015-12-06 20:06:42 [-] Getting Total Review Count
+2015-12-06 20:06:42 [-] Executing SQL query: SELECT * FROM users WHERE id='A3NTBS9QD6LRRU'
+2015-12-06 20:06:42 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3NTBS9QD6LRRU','http://www.amazon.com/gp/pdp/profile/A3NTBS9QD6LRRU','','bewaldro','8','9837046','unused','item','blank',NOW(),NOW())
+2015-12-06 20:06:42 [-] User Recorded
+2015-12-06 20:06:42 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R3T03DZNY6B0YH'
+2015-12-06 20:06:42 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3T03DZNY6B0YH','http://www.amazon.com/gp/customer-reviews/R3T03DZNY6B0YH','B00XKIUF9A','A3NTBS9QD6LRRU','3.0','2015-11-22 00:00:00','Functional as far as silicone pads go but too small for the average cookie sheet.','Too Small','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:06:42 [-] Review Recorded
+2015-12-06 20:06:42 [-] Getting The User ID
+2015-12-06 20:06:42 [-] Getting Review Rating
+2015-12-06 20:06:42 [-] Getting Review Date
+2015-12-06 20:06:42 [-] Getting The Review Text
+2015-12-06 20:06:42 [-] Getting Review Title
+2015-12-06 20:06:49 [-] Getting the Profile HTML for Reviewer ID : A1Q71OBUTDG1RH
+2015-12-06 20:06:49 [-] Getting the Reviewer Name.
+2015-12-06 20:06:49 [-] Getting the Country Name.
+2015-12-06 20:06:49 [!] No Location Found.
+2015-12-06 20:06:49 [-] Getting Total Review Count
+2015-12-06 20:06:49 [-] Executing SQL query: SELECT * FROM users WHERE id='A1Q71OBUTDG1RH'
+2015-12-06 20:06:49 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1Q71OBUTDG1RH','http://www.amazon.com/gp/pdp/profile/A1Q71OBUTDG1RH','','SuzetteC','70','195171','unused','item','blank',NOW(),NOW())
+2015-12-06 20:06:49 [-] User Recorded
+2015-12-06 20:06:49 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R3R9RV9WLOJC6W'
+2015-12-06 20:06:49 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3R9RV9WLOJC6W','http://www.amazon.com/gp/customer-reviews/R3R9RV9WLOJC6W','B00XKIUF9A','A1Q71OBUTDG1RH','5.0','2015-11-18 00:00:00','This is a very well made heat resistant silicone baking mat. It works beautifully and nothing sticks to it. I honestly don\'t know how we ever did without these jewels from the baking gods before. Seriously though this mat is very strong, thick and durable. I couldn\'t ask for anything better. It is a little on the small side though, but perfect for a small batch of cookies for one, or meringues.','Very Strong','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:06:49 [-] Review Recorded
+2015-12-06 20:06:49 [-] Getting The User ID
+2015-12-06 20:06:49 [-] Getting Review Rating
+2015-12-06 20:06:49 [-] Getting Review Date
+2015-12-06 20:06:49 [-] Getting The Review Text
+2015-12-06 20:06:49 [-] Getting Review Title
+2015-12-06 20:06:57 [-] Getting the Profile HTML for Reviewer ID : AOBLOHIQS5PAO
+2015-12-06 20:06:57 [-] Getting the Reviewer Name.
+2015-12-06 20:06:57 [-] Getting the Country Name.
+2015-12-06 20:06:57 [!] No Location Found.
+2015-12-06 20:06:57 [-] Getting Total Review Count
+2015-12-06 20:06:57 [-] Executing SQL query: SELECT * FROM users WHERE id='AOBLOHIQS5PAO'
+2015-12-06 20:06:57 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AOBLOHIQS5PAO','http://www.amazon.com/gp/pdp/profile/AOBLOHIQS5PAO','','Mersi','63','1152562','unused','item','blank',NOW(),NOW())
+2015-12-06 20:06:57 [-] User Recorded
+2015-12-06 20:06:57 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R6QXU9K8B7Z4H'
+2015-12-06 20:06:57 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R6QXU9K8B7Z4H','http://www.amazon.com/gp/customer-reviews/R6QXU9K8B7Z4H','B00XKIUF9A','AOBLOHIQS5PAO','3.0','2015-11-18 00:00:00','It is rather small for a baking mat.  This is something I can get my 5 year old when he\'s baking his batch of holiday cookies, but too small for me\nI purchased the product at a discounted price for my honest review.','It is rather small for a baking mat. This ...','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:06:57 [-] Review Recorded
+2015-12-06 20:06:57 [-] Getting The User ID
+2015-12-06 20:06:57 [-] Getting Review Rating
+2015-12-06 20:06:57 [-] Getting Review Date
+2015-12-06 20:06:57 [-] Getting The Review Text
+2015-12-06 20:06:57 [-] Getting Review Title
+2015-12-06 20:07:05 [-] Getting the Profile HTML for Reviewer ID : A2QAH4XZUUHCK9
+2015-12-06 20:07:05 [-] Getting the Reviewer Name.
+2015-12-06 20:07:05 [-] Getting the Country Name.
+2015-12-06 20:07:05 [-] Getting the Location.
+2015-12-06 20:07:05 [-] Getting Total Review Count
+2015-12-06 20:07:05 [-] Executing SQL query: SELECT * FROM users WHERE id='A2QAH4XZUUHCK9'
+2015-12-06 20:07:05 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2QAH4XZUUHCK9','http://www.amazon.com/gp/pdp/profile/A2QAH4XZUUHCK9','Indiana
+','Amazon Customer','87','36302792','unused','item','blank',NOW(),NOW())
+2015-12-06 20:07:05 [-] User Recorded
+2015-12-06 20:07:05 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R14PD486HP39CU'
+2015-12-06 20:07:05 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R14PD486HP39CU','http://www.amazon.com/gp/customer-reviews/R14PD486HP39CU','B00XKIUF9A','A2QAH4XZUUHCK9','4.0','2015-11-17 00:00:00','This is not the size I was expecting. Made nice just small to use not big enough to. I purchased this as a deal with the agreement of a honest review. I will tell my family and friends about this product.','Heat Resistant Silicone non stick baking matt','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:07:05 [-] Review Recorded
+2015-12-06 20:07:05 [-] Getting The User ID
+2015-12-06 20:07:05 [-] Getting Review Rating
+2015-12-06 20:07:05 [-] Getting Review Date
+2015-12-06 20:07:05 [-] Getting The Review Text
+2015-12-06 20:07:05 [-] Getting Review Title
+2015-12-06 20:07:12 [-] Getting the Profile HTML for Reviewer ID : A2ZO6UK020GC38
+2015-12-06 20:07:12 [!] Error Getting the Reviewer Name.
+2015-12-06 20:07:12 [-] Getting the Country Name.
+2015-12-06 20:07:12 [!] No Location Found.
+2015-12-06 20:07:12 [-] Getting Total Review Count
+2015-12-06 20:07:12 [-] Executing SQL query: SELECT * FROM users WHERE id='A2ZO6UK020GC38'
+2015-12-06 20:07:12 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2ZO6UK020GC38','http://www.amazon.com/gp/pdp/profile/A2ZO6UK020GC38','','','1','13319845','unused','item','blank',NOW(),NOW())
+2015-12-06 20:07:12 [-] User Recorded
+2015-12-06 20:07:12 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R38ON8R0FM9T7J'
+2015-12-06 20:07:12 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R38ON8R0FM9T7J','http://www.amazon.com/gp/customer-reviews/R38ON8R0FM9T7J','B00XKIUF9A','A2ZO6UK020GC38','4.0','2015-11-17 00:00:00','Received two mats as a gift.  As mentioned in another review, the size doesn\'t match any pan.  Other than that, no complaint.  Bake/toast/roast then clean w/ no effort.  Should be good for a few hundred uses.','No stick.  No mess.','0','0','0','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:07:12 [-] Review Recorded
+2015-12-06 20:07:21 [-] Getting Page : http://www.amazon.com/product-reviews/B00XKIUF9A/?sortBy=recent&pageNumber=2
+2015-12-06 20:07:21 [-] Getting The User ID
+2015-12-06 20:07:21 [-] Getting Review Rating
+2015-12-06 20:07:21 [-] Getting Review Date
+2015-12-06 20:07:21 [-] Getting The Review Text
+2015-12-06 20:07:21 [-] Getting Review Title
+2015-12-06 20:07:27 [-] Getting the Profile HTML for Reviewer ID : A2FAOCHB3T3OYO
+2015-12-06 20:07:27 [!] Error Getting the Reviewer Name.
+2015-12-06 20:07:27 [!] Error Getting the Country Name.
+2015-12-06 20:07:27 [!] No Location Found.
+2015-12-06 20:07:27 [!] No reviewer rank found.
+2015-12-06 20:07:27 [!] Error Getting Total Review Count
+2015-12-06 20:07:27 [-] Executing SQL query: SELECT * FROM users WHERE id='A2FAOCHB3T3OYO'
+2015-12-06 20:07:27 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2FAOCHB3T3OYO','http://www.amazon.com/gp/pdp/profile/A2FAOCHB3T3OYO','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:07:27 [-] User Recorded
+2015-12-06 20:07:27 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R327959YJU8RFF'
+2015-12-06 20:07:27 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R327959YJU8RFF','http://www.amazon.com/gp/customer-reviews/R327959YJU8RFF','B00XKIUF9A','A2FAOCHB3T3OYO','5.0','2015-11-9 00:00:00','I absolutely love this thing for easy cleanup!\n\nI received a discount for my honest opinion about this product.','Love it','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:07:27 [-] Review Recorded
+2015-12-06 20:07:27 [-] Getting The User ID
+2015-12-06 20:07:27 [-] Getting Review Rating
+2015-12-06 20:07:27 [-] Getting Review Date
+2015-12-06 20:07:27 [-] Getting The Review Text
+2015-12-06 20:07:27 [-] Getting Review Title
+2015-12-06 20:07:32 [-] Getting the Profile HTML for Reviewer ID : A35042IWDE456Y
+2015-12-06 20:07:32 [!] Error Getting the Reviewer Name.
+2015-12-06 20:07:32 [!] Error Getting the Country Name.
+2015-12-06 20:07:32 [!] No Location Found.
+2015-12-06 20:07:32 [!] No reviewer rank found.
+2015-12-06 20:07:32 [!] Error Getting Total Review Count
+2015-12-06 20:07:32 [-] Executing SQL query: SELECT * FROM users WHERE id='A35042IWDE456Y'
+2015-12-06 20:07:32 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A35042IWDE456Y','http://www.amazon.com/gp/pdp/profile/A35042IWDE456Y','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:07:32 [-] User Recorded
+2015-12-06 20:07:32 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R3QQ96TPGUGX01'
+2015-12-06 20:07:32 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3QQ96TPGUGX01','http://www.amazon.com/gp/customer-reviews/R3QQ96TPGUGX01','B00XKIUF9A','A35042IWDE456Y','5.0','2015-11-8 00:00:00','Never do you have to use parchment paper or foil again since these can be reused thousands of times with no spray required.\n\nIts extremely non stick, so you don\'t have to scrap off any crumbs damaging your cooking sheet or pan when you\'re just using oils or sprays. It does not leave access crumbs or chunks and everything slides right off smoothly so you do not lose any food during the baking process.\n\nIt\'s easy to clean, just wash with soap and water with all your other dishes\n\nCan also be used outside the kitchen such as a mat for play-dough or clay so your kids can get some use out of it\n\nOverall will save you tons of money and time in the long run\n\nI received this product at a discount in exchange for a honest review','Pays for itself after several uses','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:07:32 [-] Review Recorded
+2015-12-06 20:07:32 [-] Getting The User ID
+2015-12-06 20:07:32 [-] Getting Review Rating
+2015-12-06 20:07:32 [-] Getting Review Date
+2015-12-06 20:07:32 [-] Getting The Review Text
+2015-12-06 20:07:32 [-] Getting Review Title
+2015-12-06 20:07:37 [-] Getting the Profile HTML for Reviewer ID : A3OTZZU15EDAC8
+2015-12-06 20:07:37 [!] Error Getting the Reviewer Name.
+2015-12-06 20:07:37 [!] Error Getting the Country Name.
+2015-12-06 20:07:37 [!] No Location Found.
+2015-12-06 20:07:37 [!] No reviewer rank found.
+2015-12-06 20:07:37 [!] Error Getting Total Review Count
+2015-12-06 20:07:37 [-] Executing SQL query: SELECT * FROM users WHERE id='A3OTZZU15EDAC8'
+2015-12-06 20:07:37 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3OTZZU15EDAC8','http://www.amazon.com/gp/pdp/profile/A3OTZZU15EDAC8','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:07:37 [-] User Recorded
+2015-12-06 20:07:37 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R3PPCB8QSOT0W'
+2015-12-06 20:07:37 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3PPCB8QSOT0W','http://www.amazon.com/gp/customer-reviews/R3PPCB8QSOT0W','B00XKIUF9A','A3OTZZU15EDAC8','5.0','2015-11-8 00:00:00','This silicone baking mat is the perfect size for my toaster oven.  I like how this mat protects my baking pans and clean up is a whiz!!  There is no mess no matter what you are baking.  Just wipe it off and wash it with a little soap and water.  Items do brown when using this mat.  It is a perfect addition to my baking pans.\n\nThis product was provided at a discounted price in exchange for my honest review.','Makes baking easy!!','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:07:37 [-] Review Recorded
+2015-12-06 20:07:37 [-] Getting The User ID
+2015-12-06 20:07:37 [-] Getting Review Rating
+2015-12-06 20:07:37 [-] Getting Review Date
+2015-12-06 20:07:37 [-] Getting The Review Text
+2015-12-06 20:07:37 [-] Getting Review Title
+2015-12-06 20:07:42 [-] Getting the Profile HTML for Reviewer ID : A26DDN9NVR0YBH
+2015-12-06 20:07:42 [!] Error Getting the Reviewer Name.
+2015-12-06 20:07:42 [!] Error Getting the Country Name.
+2015-12-06 20:07:42 [!] No Location Found.
+2015-12-06 20:07:42 [!] No reviewer rank found.
+2015-12-06 20:07:42 [!] Error Getting Total Review Count
+2015-12-06 20:07:42 [-] Executing SQL query: SELECT * FROM users WHERE id='A26DDN9NVR0YBH'
+2015-12-06 20:07:42 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A26DDN9NVR0YBH','http://www.amazon.com/gp/pdp/profile/A26DDN9NVR0YBH','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:07:42 [-] User Recorded
+2015-12-06 20:07:42 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R3C7F5XG94CYXY'
+2015-12-06 20:07:42 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3C7F5XG94CYXY','http://www.amazon.com/gp/customer-reviews/R3C7F5XG94CYXY','B00XKIUF9A','A26DDN9NVR0YBH','5.0','2015-11-8 00:00:00','This mat is the perfect size for my homemade pizza and also my focaccia. It is so easy to clean, just a little soapy water and it cleans up like new. The quality is great and will last many years.\nI received this item at a discount for my honest and unbiased review.','This mat is the perfect size for my homemade pizza and also my focaccia','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:07:42 [-] Review Recorded
+2015-12-06 20:07:42 [-] Getting The User ID
+2015-12-06 20:07:42 [-] Getting Review Rating
+2015-12-06 20:07:42 [-] Getting Review Date
+2015-12-06 20:07:42 [-] Getting The Review Text
+2015-12-06 20:07:42 [-] Getting Review Title
+2015-12-06 20:07:47 [-] Getting the Profile HTML for Reviewer ID : A2PPFTI83P55P6
+2015-12-06 20:07:47 [!] Error Getting the Reviewer Name.
+2015-12-06 20:07:47 [!] Error Getting the Country Name.
+2015-12-06 20:07:47 [!] No Location Found.
+2015-12-06 20:07:47 [!] No reviewer rank found.
+2015-12-06 20:07:47 [!] Error Getting Total Review Count
+2015-12-06 20:07:47 [-] Executing SQL query: SELECT * FROM users WHERE id='A2PPFTI83P55P6'
+2015-12-06 20:07:47 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2PPFTI83P55P6','http://www.amazon.com/gp/pdp/profile/A2PPFTI83P55P6','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:07:47 [-] User Recorded
+2015-12-06 20:07:47 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R8NFLQXU5BF9Q'
+2015-12-06 20:07:47 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R8NFLQXU5BF9Q','http://www.amazon.com/gp/customer-reviews/R8NFLQXU5BF9Q','B00XKIUF9A','A2PPFTI83P55P6','4.0','2015-11-8 00:00:00','This heat resistant non-stick baking mat makes the cookies nice and crispy on the bottom.  I used this sheet in lieu of cooking spray and they turned out great!  The sheet is of compact size.  It is nice, flexible silicone and cleans up easily.  I also use it to roll out pie crust, so it is a very versatile mat and I love this as a new addition to my kitchen tools~\n\nI received this product in exchange for my honest review.','This heat resistant non-stick baking mat makes the cookies nice and crispy on the bottom','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:07:47 [-] Review Recorded
+2015-12-06 20:07:47 [-] Getting The User ID
+2015-12-06 20:07:47 [-] Getting Review Rating
+2015-12-06 20:07:47 [-] Getting Review Date
+2015-12-06 20:07:47 [-] Getting The Review Text
+2015-12-06 20:07:47 [-] Getting Review Title
+2015-12-06 20:07:52 [-] Getting the Profile HTML for Reviewer ID : A39FY3IH7AE0YL
+2015-12-06 20:07:52 [!] Error Getting the Reviewer Name.
+2015-12-06 20:07:52 [!] Error Getting the Country Name.
+2015-12-06 20:07:52 [!] No Location Found.
+2015-12-06 20:07:52 [!] No reviewer rank found.
+2015-12-06 20:07:52 [!] Error Getting Total Review Count
+2015-12-06 20:07:52 [-] Executing SQL query: SELECT * FROM users WHERE id='A39FY3IH7AE0YL'
+2015-12-06 20:07:52 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A39FY3IH7AE0YL','http://www.amazon.com/gp/pdp/profile/A39FY3IH7AE0YL','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:07:52 [-] User Recorded
+2015-12-06 20:07:52 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R39HLQEYKDAOT'
+2015-12-06 20:07:52 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R39HLQEYKDAOT','http://www.amazon.com/gp/customer-reviews/R39HLQEYKDAOT','B00XKIUF9A','A39FY3IH7AE0YL','5.0','2015-11-7 00:00:00','I advise everyone to stock up on these..great for gifts because it\'s practical and special. You realize that after use use it.  No stick, easy to clean and protects your cookie tray. It will always look new.Leave disclosures - &#34;I received this product in exchange for my honest and unbiased review&#34;','great for gifts because it\'s practical and special','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:07:52 [-] Review Recorded
+2015-12-06 20:07:52 [-] Getting The User ID
+2015-12-06 20:07:52 [-] Getting Review Rating
+2015-12-06 20:07:52 [-] Getting Review Date
+2015-12-06 20:07:52 [-] Getting The Review Text
+2015-12-06 20:07:52 [-] Getting Review Title
+2015-12-06 20:07:57 [-] Getting the Profile HTML for Reviewer ID : A1O03CPZATYJNG
+2015-12-06 20:07:57 [!] Error Getting the Reviewer Name.
+2015-12-06 20:07:57 [!] Error Getting the Country Name.
+2015-12-06 20:07:57 [!] No Location Found.
+2015-12-06 20:07:57 [!] No reviewer rank found.
+2015-12-06 20:07:57 [!] Error Getting Total Review Count
+2015-12-06 20:07:57 [-] Executing SQL query: SELECT * FROM users WHERE id='A1O03CPZATYJNG'
+2015-12-06 20:07:57 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1O03CPZATYJNG','http://www.amazon.com/gp/pdp/profile/A1O03CPZATYJNG','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:07:57 [-] User Recorded
+2015-12-06 20:07:57 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='REKZ14S09UJ04'
+2015-12-06 20:07:57 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('REKZ14S09UJ04','http://www.amazon.com/gp/customer-reviews/REKZ14S09UJ04','B00XKIUF9A','A1O03CPZATYJNG','5.0','2015-11-6 00:00:00','This is a fantastic mat! It\'s the perfect size for a cookie sheet (mind, this is not just for use with cookies, but it does have to sit on something on the rack), or even in a mid- or large-size toaster/convection oven! I\'ve used the mat for cookies and baked mozzarella sticks and had no issues with food sticking to the mat. Cleaning the mat is as easy as wiping it down with a soap dishcloth, after which it\'s ready to be used again.\n\nOverall, this is a great product that does its job just as it should!\n\nI received this item at a discount in exchange for my honest and accurate review. That said, my opinions are unbiased and entirely my own.','Love it!','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:07:57 [-] Review Recorded
+2015-12-06 20:07:57 [-] Getting The User ID
+2015-12-06 20:07:57 [-] Getting Review Rating
+2015-12-06 20:07:57 [-] Getting Review Date
+2015-12-06 20:07:57 [-] Getting The Review Text
+2015-12-06 20:07:57 [-] Getting Review Title
+2015-12-06 20:08:02 [-] Getting the Profile HTML for Reviewer ID : A3IK2JNUMWLDQG
+2015-12-06 20:08:02 [!] Error Getting the Reviewer Name.
+2015-12-06 20:08:02 [!] Error Getting the Country Name.
+2015-12-06 20:08:02 [!] No Location Found.
+2015-12-06 20:08:02 [!] No reviewer rank found.
+2015-12-06 20:08:02 [!] Error Getting Total Review Count
+2015-12-06 20:08:02 [-] Executing SQL query: SELECT * FROM users WHERE id='A3IK2JNUMWLDQG'
+2015-12-06 20:08:02 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3IK2JNUMWLDQG','http://www.amazon.com/gp/pdp/profile/A3IK2JNUMWLDQG','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:02 [-] User Recorded
+2015-12-06 20:08:02 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R2YO80BIX94EOF'
+2015-12-06 20:08:02 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2YO80BIX94EOF','http://www.amazon.com/gp/customer-reviews/R2YO80BIX94EOF','B00XKIUF9A','A3IK2JNUMWLDQG','4.0','2015-11-5 00:00:00','While I purchased this product at a discount in exchange for my honest and unbiased review, I must have completely missed the size on the description.  Honestly, I don\'t even see the size listed in the description, just in the reviews,  This is a smaller mat and not quite what I was expecting.  No worries though, because sometimes I want to bake a single piece of chicken or a smaller item when I am cooking just for myself.\n\nI like the larger edges that grip the pan well and allow me to move the sheet in and out of the oven without it sliding around.  Clean up was a breeze and the small size allows me to store this one between a few baking sheets without any issues once it has fully dried.  All in all it\'s a nice mat and will used for smaller and single items when I bake.','Nice mat, small size','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:02 [-] Review Recorded
+2015-12-06 20:08:02 [-] Getting The User ID
+2015-12-06 20:08:02 [-] Getting Review Rating
+2015-12-06 20:08:02 [-] Getting Review Date
+2015-12-06 20:08:02 [-] Getting The Review Text
+2015-12-06 20:08:02 [-] Getting Review Title
+2015-12-06 20:08:07 [-] Getting the Profile HTML for Reviewer ID : A3MXH6G1O79LR
+2015-12-06 20:08:07 [!] Error Getting the Reviewer Name.
+2015-12-06 20:08:07 [!] Error Getting the Country Name.
+2015-12-06 20:08:07 [!] No Location Found.
+2015-12-06 20:08:07 [!] No reviewer rank found.
+2015-12-06 20:08:07 [!] Error Getting Total Review Count
+2015-12-06 20:08:07 [-] Executing SQL query: SELECT * FROM users WHERE id='A3MXH6G1O79LR'
+2015-12-06 20:08:07 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3MXH6G1O79LR','http://www.amazon.com/gp/pdp/profile/A3MXH6G1O79LR','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:07 [-] User Recorded
+2015-12-06 20:08:07 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R23ZE6VEIEWXM6'
+2015-12-06 20:08:07 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R23ZE6VEIEWXM6','http://www.amazon.com/gp/customer-reviews/R23ZE6VEIEWXM6','B00XKIUF9A','A3MXH6G1O79LR','5.0','2015-11-5 00:00:00','I received this product for free or at a discounted price for my honest and unbiased review.\nThe heat resistant silicone non stick will replace all of the cookie sheets that you have in your cabinet.\nThese mats are amazing I have a larger one but this one is perfect for small batches.\nEasy to clean up just wipe it off and easy to store. Roll it up and slides in your utensil drawer.\nThis will make a great gift for the chef in your family or a nice gift for a friend who bakes.\nThank you for the opportunity to review your product.\nSincerely\nDebbie','Silicone mat','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:07 [-] Review Recorded
+2015-12-06 20:08:07 [-] Getting The User ID
+2015-12-06 20:08:07 [-] Getting Review Rating
+2015-12-06 20:08:07 [-] Getting Review Date
+2015-12-06 20:08:07 [-] Getting The Review Text
+2015-12-06 20:08:07 [-] Getting Review Title
+2015-12-06 20:08:12 [-] Getting the Profile HTML for Reviewer ID : A6EXM3P79OSU3
+2015-12-06 20:08:12 [!] Error Getting the Reviewer Name.
+2015-12-06 20:08:12 [!] Error Getting the Country Name.
+2015-12-06 20:08:12 [!] No Location Found.
+2015-12-06 20:08:12 [!] No reviewer rank found.
+2015-12-06 20:08:12 [!] Error Getting Total Review Count
+2015-12-06 20:08:12 [-] Executing SQL query: SELECT * FROM users WHERE id='A6EXM3P79OSU3'
+2015-12-06 20:08:12 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A6EXM3P79OSU3','http://www.amazon.com/gp/pdp/profile/A6EXM3P79OSU3','','','','0','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:12 [-] User Recorded
+2015-12-06 20:08:12 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R2Y90LW92K2HF7'
+2015-12-06 20:08:12 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2Y90LW92K2HF7','http://www.amazon.com/gp/customer-reviews/R2Y90LW92K2HF7','B00XKIUF9A','A6EXM3P79OSU3','5.0','2015-11-5 00:00:00','This is perfect.  It fits 9x13 pan.  Washes easily with soap and water. Cookies come off with ease and cook evenly.  I received this at a discount for my honest opinion','Perfect','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:12 [-] Review Recorded
+2015-12-06 20:08:17 [-] Getting Page : http://www.amazon.com/product-reviews/B00XKIUF9A/?sortBy=recent&pageNumber=3
+2015-12-06 20:08:17 [-] Getting The User ID
+2015-12-06 20:08:17 [-] Getting Review Rating
+2015-12-06 20:08:17 [-] Getting Review Date
+2015-12-06 20:08:17 [-] Getting The Review Text
+2015-12-06 20:08:17 [-] Getting Review Title
+2015-12-06 20:08:22 [-] Getting the Profile HTML for Reviewer ID : A3QG0HA91HZWXK
+2015-12-06 20:08:22 [-] Getting the Reviewer Name.
+2015-12-06 20:08:22 [-] Getting the Country Name.
+2015-12-06 20:08:22 [!] No Location Found.
+2015-12-06 20:08:22 [-] Getting Total Review Count
+2015-12-06 20:08:22 [-] Executing SQL query: SELECT * FROM users WHERE id='A3QG0HA91HZWXK'
+2015-12-06 20:08:22 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3QG0HA91HZWXK','http://www.amazon.com/gp/pdp/profile/A3QG0HA91HZWXK','','Nreimonenq','1106','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:22 [-] User Recorded
+2015-12-06 20:08:22 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R2DXQ4YC381DDE'
+2015-12-06 20:08:22 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2DXQ4YC381DDE','http://www.amazon.com/gp/customer-reviews/R2DXQ4YC381DDE','B00XKIUF9A','A3QG0HA91HZWXK','5.0','2015-11-5 00:00:00','I received this product at a discount for my unbiased review. I baked cookies on it and they came out great! It was not hot like regular cookie  pans so it was alot better. I will recommend everyone use this baking sheet.','I baked cookies on it and they came out great! It was not hot like regular cookie pans ...','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:22 [-] Review Recorded
+2015-12-06 20:08:22 [-] Getting The User ID
+2015-12-06 20:08:22 [-] Getting Review Rating
+2015-12-06 20:08:22 [-] Getting Review Date
+2015-12-06 20:08:22 [-] Getting The Review Text
+2015-12-06 20:08:22 [-] Getting Review Title
+2015-12-06 20:08:26 [-] Getting the Profile HTML for Reviewer ID : AL1TDM3EGQF82
+2015-12-06 20:08:26 [-] Getting the Reviewer Name.
+2015-12-06 20:08:26 [-] Getting the Country Name.
+2015-12-06 20:08:26 [!] No Location Found.
+2015-12-06 20:08:26 [-] Getting Total Review Count
+2015-12-06 20:08:26 [-] Executing SQL query: SELECT * FROM users WHERE id='AL1TDM3EGQF82'
+2015-12-06 20:08:26 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AL1TDM3EGQF82','http://www.amazon.com/gp/pdp/profile/AL1TDM3EGQF82','','Sam S','84','1783585','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:26 [-] User Recorded
+2015-12-06 20:08:26 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='RL33IK72SZ0NG'
+2015-12-06 20:08:26 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RL33IK72SZ0NG','http://www.amazon.com/gp/customer-reviews/RL33IK72SZ0NG','B00XKIUF9A','AL1TDM3EGQF82','5.0','2015-11-5 00:00:00','Great, reusable baking mat. It is very sturdy and easily cleaned. I\'ve used it for baking small batches of cookies and reheating things in the oven up to 400 degrees. Pay attention to the size, however. I was surprised at how small this was when it arrived, but that is my own fault (size description is accurate on the page) it fits perfectly in some of my smaller sheet pans. Next time I will purchase a larger size from this company. Silicone mats are the way to go and I will no longer need to purchase endless amounts of tinfoil.\n\nI was given this product at a discount for my honest opinion.','Good quality baking mat','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:26 [-] Review Recorded
+2015-12-06 20:08:26 [-] Getting The User ID
+2015-12-06 20:08:26 [-] Getting Review Rating
+2015-12-06 20:08:26 [-] Getting Review Date
+2015-12-06 20:08:26 [-] Getting The Review Text
+2015-12-06 20:08:26 [-] Getting Review Title
+2015-12-06 20:08:26 [-] Getting Review Votes
+2015-12-06 20:08:31 [-] Getting the Profile HTML for Reviewer ID : AY47S8YTC9PGJ
+2015-12-06 20:08:31 [-] Getting the Reviewer Name.
+2015-12-06 20:08:31 [-] Getting the Country Name.
+2015-12-06 20:08:31 [-] Getting the Location.
+2015-12-06 20:08:31 [-] Getting Total Review Count
+2015-12-06 20:08:31 [-] Executing SQL query: SELECT * FROM users WHERE id='AY47S8YTC9PGJ'
+2015-12-06 20:08:31 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AY47S8YTC9PGJ','http://www.amazon.com/gp/pdp/profile/AY47S8YTC9PGJ','Infrastructure Administrator in Iowa
+','Sally T','823','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:31 [-] User Recorded
+2015-12-06 20:08:31 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R2UXPP8RM3SNI4'
+2015-12-06 20:08:31 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2UXPP8RM3SNI4','http://www.amazon.com/gp/customer-reviews/R2UXPP8RM3SNI4','B00XKIUF9A','AY47S8YTC9PGJ','5.0','2015-11-5 00:00:00','This one is a little on the smaller size. Which is fine, I can use it on my smaller pieces.\nI\'ve become quite fond of these. I, too, have used foil for over 30 years. I hate having to scrub on my pieces, and they degrade so quickly then. I really enjoy keeping them looking nicer longer.\nThis helps on clean up. Actually, it doesn\'t help, it completely wipes out clean up. You take this out of the pan, you wipe it down with a soapy wash cloth, and move on. And, it has kept my pans looking great.\nAnd everything is non-stick now. Even the stickiest items come right off. Melty cheese, sticky buns. It doesn\'t matter how stuck they are, they will come right off.\nI purchased this at a discount to test and give a full honest review. These are great, I have several on hand.','Which is fine, I can use it on my smaller pieces','1','1','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:31 [-] Review Recorded
+2015-12-06 20:08:31 [-] Getting The User ID
+2015-12-06 20:08:31 [-] Getting Review Rating
+2015-12-06 20:08:31 [-] Getting Review Date
+2015-12-06 20:08:31 [-] Getting The Review Text
+2015-12-06 20:08:31 [-] Getting Review Title
+2015-12-06 20:08:36 [-] Getting the Profile HTML for Reviewer ID : A2RVLWF3BN6IFR
+2015-12-06 20:08:36 [-] Getting the Reviewer Name.
+2015-12-06 20:08:36 [-] Getting the Country Name.
+2015-12-06 20:08:36 [-] Getting the Location.
+2015-12-06 20:08:36 [-] Getting Total Review Count
+2015-12-06 20:08:36 [-] Executing SQL query: SELECT * FROM users WHERE id='A2RVLWF3BN6IFR'
+2015-12-06 20:08:36 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2RVLWF3BN6IFR','http://www.amazon.com/gp/pdp/profile/A2RVLWF3BN6IFR','Ft. Worth, TX
+','C. Daroche','32','3455187','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:36 [-] User Recorded
+2015-12-06 20:08:36 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='RHAK7OFGG9HSD'
+2015-12-06 20:08:36 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RHAK7OFGG9HSD','http://www.amazon.com/gp/customer-reviews/RHAK7OFGG9HSD','B00XKIUF9A','A2RVLWF3BN6IFR','5.0','2015-11-4 00:00:00','Perfect size for my toaster oven!  I have a lot of full size silicon mats for my regular baking, but many times I use my toaster/convection oven to do the tiny jobs, and this little mat fits perfectly!  I love it and would definitely recommend it to my friends and family.  I was offered this product at a discount in exchange for an honest review.','Perfect size for my toaster oven','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:36 [-] Review Recorded
+2015-12-06 20:08:36 [-] Getting The User ID
+2015-12-06 20:08:36 [-] Getting Review Rating
+2015-12-06 20:08:36 [-] Getting Review Date
+2015-12-06 20:08:36 [-] Getting The Review Text
+2015-12-06 20:08:36 [-] Getting Review Title
+2015-12-06 20:08:36 [-] Getting Review Votes
+2015-12-06 20:08:40 [-] Getting the Profile HTML for Reviewer ID : A3N3J7M6XITZ38
+2015-12-06 20:08:40 [-] Getting the Reviewer Name.
+2015-12-06 20:08:40 [-] Getting the Country Name.
+2015-12-06 20:08:40 [!] No Location Found.
+2015-12-06 20:08:40 [-] Getting Total Review Count
+2015-12-06 20:08:40 [-] Executing SQL query: SELECT * FROM users WHERE id='A3N3J7M6XITZ38'
+2015-12-06 20:08:40 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3N3J7M6XITZ38','http://www.amazon.com/gp/pdp/profile/A3N3J7M6XITZ38','','Jesse','144','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:40 [-] User Recorded
+2015-12-06 20:08:40 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R15QEJAAB9O3C2'
+2015-12-06 20:08:40 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R15QEJAAB9O3C2','http://www.amazon.com/gp/customer-reviews/R15QEJAAB9O3C2','B00XKIUF9A','A3N3J7M6XITZ38','5.0','2015-11-3 00:00:00','I just received this today, and it fits one of my pans perfectly. I am including an image of the mat itself and also one with the mat in a (standard) pan that measures 13x9x2 inches (the mat still has the plastic wrap it came shipped in). I can\'t wait to use it and if it does not live up to my expectations I will update the review! For now I am giving it 5 stars!','Great cooking mat','1','2','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:40 [-] Review Recorded
+2015-12-06 20:08:40 [-] Getting The User ID
+2015-12-06 20:08:40 [-] Getting Review Rating
+2015-12-06 20:08:40 [-] Getting Review Date
+2015-12-06 20:08:40 [-] Getting The Review Text
+2015-12-06 20:08:40 [-] Getting Review Title
+2015-12-06 20:08:45 [-] Getting the Profile HTML for Reviewer ID : AQ7EYFP7QBQ36
+2015-12-06 20:08:45 [-] Getting the Reviewer Name.
+2015-12-06 20:08:45 [-] Getting the Country Name.
+2015-12-06 20:08:45 [-] Getting the Location.
+2015-12-06 20:08:45 [-] Getting Total Review Count
+2015-12-06 20:08:45 [-] Executing SQL query: SELECT * FROM users WHERE id='AQ7EYFP7QBQ36'
+2015-12-06 20:08:45 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AQ7EYFP7QBQ36','http://www.amazon.com/gp/pdp/profile/AQ7EYFP7QBQ36','PA
+','Pickie Shopper','156','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:45 [-] User Recorded
+2015-12-06 20:08:45 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R3DDI2S9ZU64J2'
+2015-12-06 20:08:45 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3DDI2S9ZU64J2','http://www.amazon.com/gp/customer-reviews/R3DDI2S9ZU64J2','B00XKIUF9A','AQ7EYFP7QBQ36','5.0','2015-11-3 00:00:00','I was very pleased when I received this mat.  It looks well made and very professional looking.  It fits nicely in my baking dish.  My first time baking on this mat was successful and did not leave it darkened by the baking process.  The mat is see through in the center but the edges are mat gray.  I thought the center have metal weaved inside but it seems like a more flexible material.  I think the weaved material will provide support to help this mat last for awhile.  I received this item at a discount in exchange for my honest and unbiased review.','I was very pleased when I received this mat','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:45 [-] Review Recorded
+2015-12-06 20:08:45 [-] Getting The User ID
+2015-12-06 20:08:45 [-] Getting Review Rating
+2015-12-06 20:08:45 [-] Getting Review Date
+2015-12-06 20:08:45 [-] Getting The Review Text
+2015-12-06 20:08:45 [-] Getting Review Title
+2015-12-06 20:08:50 [-] Getting the Profile HTML for Reviewer ID : A1ZT2364RJF667
+2015-12-06 20:08:50 [-] Getting the Reviewer Name.
+2015-12-06 20:08:50 [-] Getting the Country Name.
+2015-12-06 20:08:50 [-] Getting the Location.
+2015-12-06 20:08:50 [-] Getting Total Review Count
+2015-12-06 20:08:50 [-] Executing SQL query: SELECT * FROM users WHERE id='A1ZT2364RJF667'
+2015-12-06 20:08:50 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1ZT2364RJF667','http://www.amazon.com/gp/pdp/profile/A1ZT2364RJF667','New York United States
+','Diana','479','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:50 [-] User Recorded
+2015-12-06 20:08:50 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R3G7XW2FQ8C7NO'
+2015-12-06 20:08:50 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3G7XW2FQ8C7NO','http://www.amazon.com/gp/customer-reviews/R3G7XW2FQ8C7NO','B00XKIUF9A','A1ZT2364RJF667','5.0','2015-11-3 00:00:00','I love this baking mat. I have used tin foil just about all of my life to avoid having to scrape pans clean. I must have spent hundreds over the years (There have been many) buying tinfoil. I don\'t need to anymore. Nothing sticks to this mat, Potatoes and other foods still brown on the bottom but they do not stick. All I have to do is wipe this mat down with a soapy sponge and rinse it and it is ready to use again. Drying it is a breeze, you just lay it down on your dishtowel, Pat it, turn it over, do the same. And the whole thing is dry. If you have never used a silicone mat I would recommend that you try this one. You will be glad that you did. I was provided with this particular mat for an honest and unbiased review.','I love this baking mat','0','0','1','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:50 [-] Review Recorded
+2015-12-06 20:08:50 [-] Getting The User ID
+2015-12-06 20:08:50 [-] Getting Review Rating
+2015-12-06 20:08:50 [-] Getting Review Date
+2015-12-06 20:08:50 [-] Getting The Review Text
+2015-12-06 20:08:50 [-] Getting Review Title
+2015-12-06 20:08:50 [-] Getting Review Votes
+2015-12-06 20:08:55 [-] Getting the Profile HTML for Reviewer ID : A2TC1I1TKGQVA4
+2015-12-06 20:08:55 [-] Getting the Reviewer Name.
+2015-12-06 20:08:55 [-] Getting the Country Name.
+2015-12-06 20:08:55 [!] No Location Found.
+2015-12-06 20:08:55 [-] Getting Total Review Count
+2015-12-06 20:08:55 [-] Executing SQL query: SELECT * FROM users WHERE id='A2TC1I1TKGQVA4'
+2015-12-06 20:08:55 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2TC1I1TKGQVA4','http://www.amazon.com/gp/pdp/profile/A2TC1I1TKGQVA4','','sherry bracy','125','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:08:55 [-] User Recorded
+2015-12-06 20:08:55 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='RA3YMGI63RLA7'
+2015-12-06 20:08:55 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RA3YMGI63RLA7','http://www.amazon.com/gp/customer-reviews/RA3YMGI63RLA7','B00XKIUF9A','A2TC1I1TKGQVA4','5.0','2015-10-23 00:00:00','When I seen these baking mats I had to try them. They are a perfect size (12 5/8\'\' X 8\'\') to fit my sheet pans! Not only are they durable they withstand up to 480 degrees in the oven. The cookies I made did not stick at all..and werre nice and evenly baked! The mat washed up easily and all I did was shake it off after rinsing  air dry it! I would recommend this baking mat to any baking enthusiast!','Great size & no sticking!','1','2','0','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:08:55 [-] Review Recorded
+2015-12-06 20:08:55 [-] Getting The User ID
+2015-12-06 20:08:55 [-] Getting Review Rating
+2015-12-06 20:08:55 [-] Getting Review Date
+2015-12-06 20:08:55 [-] Getting The Review Text
+2015-12-06 20:08:55 [-] Getting Review Title
+2015-12-06 20:08:55 [-] Getting Review Votes
+2015-12-06 20:09:00 [-] Getting the Profile HTML for Reviewer ID : ARM7EM3LKIDQP
+2015-12-06 20:09:00 [-] Getting the Reviewer Name.
+2015-12-06 20:09:00 [-] Getting the Country Name.
+2015-12-06 20:09:00 [!] No Location Found.
+2015-12-06 20:09:00 [-] Getting Total Review Count
+2015-12-06 20:09:00 [-] Executing SQL query: SELECT * FROM users WHERE id='ARM7EM3LKIDQP'
+2015-12-06 20:09:00 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('ARM7EM3LKIDQP','http://www.amazon.com/gp/pdp/profile/ARM7EM3LKIDQP','','Cathrine','358','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:09:00 [-] User Recorded
+2015-12-06 20:09:00 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R2X4BOGB547DRR'
+2015-12-06 20:09:00 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2X4BOGB547DRR','http://www.amazon.com/gp/customer-reviews/R2X4BOGB547DRR','B00XKIUF9A','ARM7EM3LKIDQP','5.0','2015-10-23 00:00:00','Baking mats are not just for cookies anymore. You can use this anytime you need to put something in the oven so that whatever you bake can come off in ease. I have used this to place my pizzas on so that I wont have to take off the toppings that fell off the pizza. This also keeps things from cooking too quickly since the full contact of metal usually cooks thing unevenly.','Baking mats are not just for cookies anymore. You ...','1','1','0','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:09:00 [-] Review Recorded
+2015-12-06 20:09:00 [-] Getting The User ID
+2015-12-06 20:09:00 [-] Getting Review Rating
+2015-12-06 20:09:00 [-] Getting Review Date
+2015-12-06 20:09:00 [-] Getting The Review Text
+2015-12-06 20:09:00 [-] Getting Review Title
+2015-12-06 20:09:00 [-] Getting Review Votes
+2015-12-06 20:09:05 [-] Getting the Profile HTML for Reviewer ID : AA4NA19QS9VX9
+2015-12-06 20:09:05 [!] Error Getting the Reviewer Name.
+2015-12-06 20:09:05 [-] Getting the Country Name.
+2015-12-06 20:09:05 [-] Getting the Location.
+2015-12-06 20:09:05 [-] Getting Total Review Count
+2015-12-06 20:09:05 [-] Executing SQL query: SELECT * FROM users WHERE id='AA4NA19QS9VX9'
+2015-12-06 20:09:05 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AA4NA19QS9VX9','http://www.amazon.com/gp/pdp/profile/AA4NA19QS9VX9','Full Time Mom, College Student, Reviewer, and Farmer in Tennessee
+','','1134','','unused','item','blank',NOW(),NOW())
+2015-12-06 20:09:05 [-] User Recorded
+2015-12-06 20:09:05 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00XKIUF9A' AND id='R2DGWV3ZICRTWN'
+2015-12-06 20:09:05 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2DGWV3ZICRTWN','http://www.amazon.com/gp/customer-reviews/R2DGWV3ZICRTWN','B00XKIUF9A','AA4NA19QS9VX9','5.0','2015-10-23 00:00:00','I adore this baking mat. The wide edges make it perfectly non slip while working with it on the counter. It also helps keep things from sliding off when I\'m taking the mat in or out of the oven. I\'ve used it several times up to 475 degrees with no issues. Plus, the color matches my color scheme','I adore this baking mat. The wide edges make ...','1','1','0','unused','unused','unused','item','B00XKIUF9A',NOW(),NOW())
+2015-12-06 20:09:05 [-] Review Recorded
+2015-12-06 20:32:33 [-] Getting the HTML for Brand
+2015-12-06 20:32:33 [-] Getting the Category
+2015-12-06 20:32:33 [-] Getting the Item Name
+2015-12-06 20:32:33 [-] Getting the Brand Name
+2015-12-06 20:32:33 [-] Getting the Brand Link
+2015-12-06 20:32:33 [-] Getting the Total Reviews
+2015-12-06 20:32:33 [-] Getting the Html For Image
+2015-12-06 20:32:33 [-] Getting the Html For Item Review
+2015-12-06 20:32:33 [-] Getting the UPC
+2015-12-06 20:32:33 [-] Executing SQL query: SELECT * FROM items WHERE id='B0137K4K1E'
+2015-12-06 20:32:33 [-] Item Updated
+2015-12-06 20:32:33 [-] Executing SQL query: INSERT INTO items(id,url,title,image,category,brand_name,review_count,rating,state,referer_type,referer_id,upc,run_timestamp,collection_timestamp) 
+	VALUES('B0137K4K1E','http://www.amazon.com/dp/B0137K4K1E','
+      Aloe &amp; Cucumber Eye Serum
+      
+      
+      
+      
+      
+      
+      
+    ','http://ecx.images-amazon.com/images/I/518D7YdKoqL._SX300_QL70_.jpg','Beauty','Homestead Soap & Spa','3','5','unused','item','B0137K4K1E','636391124553',NOW(),NOW())
+2015-12-06 20:32:33 [-] Item Recorded
+2015-12-06 20:32:33 [-] Executing SQL query: SELECT * FROM brands WHERE referer_id='B0137K4K1E'
+2015-12-06 20:32:33 [-] Executing SQL query: INSERT INTO brands(name,url,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('Homestead Soap & Spa','http://www.amazon.com/Homestead-Soap-Spa/b/ref=bl_dp_s_web_13195583011?ie=UTF8&amp;node=13195583011&amp;field-lbr_brands_browse-bin=Homestead+Soap+%26+Spa','unused','item','B0137K4K1E',NOW(),NOW())
+2015-12-06 20:32:33 [-] Brand Recorded
+2015-12-06 20:32:35 [-] Getting Page : http://www.amazon.com/product-reviews/ B0137K4K1E
+2015-12-06 20:33:24 [-] Getting the HTML for Brand
+2015-12-06 20:33:24 [-] Getting the Category
+2015-12-06 20:33:24 [-] Getting the Item Name
+2015-12-06 20:33:24 [-] Getting the Brand Name
+2015-12-06 20:33:24 [-] Getting the Brand Link
+2015-12-06 20:33:24 [-] Getting the Total Reviews
+2015-12-06 20:33:24 [-] Getting the Html For Image
+2015-12-06 20:33:24 [-] Getting the Html For Item Review
+2015-12-06 20:33:24 [-] Getting the UPC
+2015-12-06 20:33:24 [-] Executing SQL query: SELECT * FROM items WHERE id='B0137K4K1E'
+2015-12-06 20:33:24 [-] Executing SQL query: UPDATE items SET url='http://www.amazon.com/dp/B0137K4K1E', title='
+      Aloe &amp; Cucumber Eye Serum
+      
+      
+      
+      
+      
+      
+      
+    ',image='http://ecx.images-amazon.com/images/I/518D7YdKoqL._SX300_QL70_.jpg', category='Beauty', brand_name='Homestead Soap & Spa', review_count='3', rating='5',upc='636391124553', collection_timestamp=NOW() WHERE id='B0137K4K1E' 
+2015-12-06 20:33:24 [-] Item Recorded
+2015-12-06 20:33:24 [-] Executing SQL query: SELECT * FROM brands WHERE referer_id='B0137K4K1E'
+2015-12-06 20:33:24 [-] Brand Recorded
+2015-12-06 20:33:26 [-] Getting Page : http://www.amazon.com/product-reviews/ B0137K4K1E
+2015-12-06 21:17:07 [-] Getting the HTML for Brand
+2015-12-06 21:17:07 [-] Getting the Category
+2015-12-06 21:17:07 [-] Getting the Item Name
+2015-12-06 21:17:07 [-] Getting the Brand Name
+2015-12-06 21:17:07 [-] Getting the Brand Link
+2015-12-06 21:17:07 [-] Getting the Total Reviews
+2015-12-06 21:17:07 [-] Getting the Html For Image
+2015-12-06 21:17:07 [-] Getting the Html For Item Review
+2015-12-06 21:17:07 [-] Getting the UPC
+2015-12-06 21:17:07 [-] Executing SQL query: SELECT * FROM items WHERE id='B0137K4K1E'
+2015-12-06 21:17:07 [-] Executing SQL query: UPDATE items SET url='http://www.amazon.com/dp/B0137K4K1E', title='
+      Aloe &amp; Cucumber Eye Serum
+      
+      
+      
+      
+      
+      
+      
+    ',image='http://ecx.images-amazon.com/images/I/518D7YdKoqL._SX300_QL70_.jpg', category='Beauty', brand_name='Homestead Soap & Spa', review_count='3', rating='5',upc='636391124553', collection_timestamp=NOW() WHERE id='B0137K4K1E' 
+2015-12-06 21:17:07 [-] Item Recorded
+2015-12-06 21:17:07 [-] Executing SQL query: SELECT * FROM brands WHERE referer_id='B0137K4K1E'
+2015-12-06 21:17:07 [-] Brand Recorded
+2015-12-06 21:17:11 [-] Getting Page : http://www.amazon.com/product-reviews/ B0137K4K1E
+2015-12-06 21:20:03 [-] Getting the HTML for Brand
+2015-12-06 21:20:03 [-] Getting the Category
+2015-12-06 21:20:03 [-] Getting the Item Name
+2015-12-06 21:20:03 [-] Getting the Brand Name
+2015-12-06 21:20:03 [-] Getting the Brand Link
+2015-12-06 21:20:03 [-] Getting the Total Reviews
+2015-12-06 21:20:03 [-] Getting the Html For Image
+2015-12-06 21:20:03 [-] Getting the Html For Item Review
+2015-12-06 21:20:03 [-] Getting the UPC
+2015-12-06 21:20:03 [-] Executing SQL query: SELECT * FROM items WHERE id='B0137K4K1E'
+2015-12-06 21:20:03 [-] Executing SQL query: UPDATE items SET url='http://www.amazon.com/dp/B0137K4K1E', title='
+      Aloe &amp; Cucumber Eye Serum
+      
+      
+      
+      
+      
+      
+      
+    ',image='http://ecx.images-amazon.com/images/I/518D7YdKoqL._SX300_QL70_.jpg', category='Beauty', brand_name='Homestead Soap & Spa', review_count='3', rating='5',upc='636391124553', collection_timestamp=NOW() WHERE id='B0137K4K1E' 
+2015-12-06 21:20:03 [-] Item Recorded
+2015-12-06 21:20:03 [-] Executing SQL query: SELECT * FROM brands WHERE referer_id='B0137K4K1E'
+2015-12-06 21:20:03 [-] Brand Recorded
+2015-12-06 21:20:05 [-] Getting Page : http://www.amazon.com/product-reviews/ B0137K4K1E
+2015-12-06 21:22:04 [-] Getting the HTML for Brand
+2015-12-06 21:22:04 [-] Getting the Category
+2015-12-06 21:22:04 [-] Getting the Item Name
+2015-12-06 21:22:04 [-] Getting the Brand Name
+2015-12-06 21:22:04 [-] Getting the Brand Link
+2015-12-06 21:22:04 [-] Getting the Total Reviews
+2015-12-06 21:22:04 [-] Getting the Html For Image
+2015-12-06 21:22:04 [-] Getting the Html For Item Review
+2015-12-06 21:22:04 [-] Getting the UPC
+2015-12-06 21:22:04 [-] Executing SQL query: SELECT * FROM items WHERE id='B0137K4K1E'
+2015-12-06 21:22:04 [-] Executing SQL query: UPDATE items SET url='http://www.amazon.com/dp/B0137K4K1E', title='
+      Aloe &amp; Cucumber Eye Serum
+      
+      
+      
+      
+      
+      
+      
+    ',image='http://ecx.images-amazon.com/images/I/518D7YdKoqL._SX300_QL70_.jpg', category='Beauty', brand_name='Homestead Soap & Spa', review_count='3', rating='5',upc='636391124553', collection_timestamp=NOW() WHERE id='B0137K4K1E' 
+2015-12-06 21:22:04 [-] Item Recorded
+2015-12-06 21:22:04 [-] Executing SQL query: SELECT * FROM brands WHERE referer_id='B0137K4K1E'
+2015-12-06 21:22:04 [-] Brand Recorded
+2015-12-06 21:22:08 [-] Getting Page : http://www.amazon.com/product-reviews/ B0137K4K1E
+2015-12-06 21:22:14 [-] Getting the Html For B0137K4K1E
+2015-12-06 21:22:14 [-] Getting The User ID
+2015-12-06 21:22:14 [-] Getting Review Rating
+2015-12-06 21:22:14 [-] Getting Review Date
+2015-12-06 21:22:14 [-] Getting The Review Text
+2015-12-06 21:22:14 [-] Getting Review Title
+2015-12-06 21:22:20 [-] Getting the Profile HTML for Reviewer ID : A8BCXHEKBOH7D
+2015-12-06 21:22:20 [-] Getting the Reviewer Name.
+2015-12-06 21:22:20 [-] Getting the Country Name.
+2015-12-06 21:22:20 [!] No Location Found.
+2015-12-06 21:22:20 [-] Getting Total Review Count
+2015-12-06 21:22:20 [-] Executing SQL query: SELECT * FROM users WHERE id='A8BCXHEKBOH7D'
+2015-12-06 21:22:20 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A8BCXHEKBOH7D','http://www.amazon.com/gp/pdp/profile/A8BCXHEKBOH7D','','Amazon Customer','19','558182','unused','item','blank',NOW(),NOW())
+2015-12-06 21:22:20 [-] User Recorded
+2015-12-06 21:22:20 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B0137K4K1E' AND id='RVVVT3BQ0DBF3'
+2015-12-06 21:22:20 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RVVVT3BQ0DBF3','http://www.amazon.com/gp/customer-reviews/RVVVT3BQ0DBF3','B0137K4K1E','A8BCXHEKBOH7D','5.0','2015-11-13 00:00:00','I retain a lot of water, much of which rests under my eyes. I tried everything to get my puffy eyes to go away, including several eye creams, Preparation H, injections from a doctor and steroids and nothing worked. I was using cucumber slices and pure aloe vera when I saw this serum. Since I already had so many eye creams I hated to buy another one but in desperation did anyway. It has worked wonders, I can\'t believe it, finally, the answer to my puffy eyes. This has made me look so much younger. Thank you.','Since I already had so many eye creams I hated to buy another one but in desperation did anyway','0','0','1','unused','unused','unused','item','B0137K4K1E',NOW(),NOW())
+2015-12-06 21:22:20 [-] Review Recorded
+2015-12-06 21:22:20 [-] Getting The User ID
+2015-12-06 21:22:20 [-] Getting Review Rating
+2015-12-06 21:22:20 [-] Getting Review Date
+2015-12-06 21:22:20 [-] Getting The Review Text
+2015-12-06 21:22:20 [-] Getting Review Title
+2015-12-06 21:22:25 [-] Getting the Profile HTML for Reviewer ID : A2WELRT5BUXM8A
+2015-12-06 21:22:25 [-] Getting the Reviewer Name.
+2015-12-06 21:22:25 [-] Getting the Country Name.
+2015-12-06 21:22:25 [!] No Location Found.
+2015-12-06 21:22:25 [-] Getting Total Review Count
+2015-12-06 21:22:25 [-] Executing SQL query: SELECT * FROM users WHERE id='A2WELRT5BUXM8A'
+2015-12-06 21:22:25 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2WELRT5BUXM8A','http://www.amazon.com/gp/pdp/profile/A2WELRT5BUXM8A','','Rosa','10','4145120','unused','item','blank',NOW(),NOW())
+2015-12-06 21:22:25 [-] User Recorded
+2015-12-06 21:22:25 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B0137K4K1E' AND id='R1CNNWBOBTO2QR'
+2015-12-06 21:22:25 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R1CNNWBOBTO2QR','http://www.amazon.com/gp/customer-reviews/R1CNNWBOBTO2QR','B0137K4K1E','A2WELRT5BUXM8A','5.0','2015-12-4 00:00:00','I have been suffering from dark circles. I didn\'t think this product would work, tried it and I love it.','tried it and I love it.','0','0','1','unused','unused','unused','item','B0137K4K1E',NOW(),NOW())
+2015-12-06 21:22:25 [-] Review Recorded
+2015-12-06 21:22:25 [-] Getting The User ID
+2015-12-06 21:22:25 [-] Getting Review Rating
+2015-12-06 21:22:25 [-] Getting Review Date
+2015-12-06 21:22:25 [-] Getting The Review Text
+2015-12-06 21:22:25 [-] Getting Review Title
+2015-12-06 21:22:31 [-] Getting the Profile HTML for Reviewer ID : A15NN4RJHG7S1N
+2015-12-06 21:22:31 [-] Getting the Reviewer Name.
+2015-12-06 21:22:31 [-] Getting the Country Name.
+2015-12-06 21:22:31 [!] No Location Found.
+2015-12-06 21:22:31 [-] Getting Total Review Count
+2015-12-06 21:22:31 [-] Executing SQL query: SELECT * FROM users WHERE id='A15NN4RJHG7S1N'
+2015-12-06 21:22:31 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A15NN4RJHG7S1N','http://www.amazon.com/gp/pdp/profile/A15NN4RJHG7S1N','','roselynn','6','4488499','unused','item','blank',NOW(),NOW())
+2015-12-06 21:22:31 [-] User Recorded
+2015-12-06 21:22:31 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B0137K4K1E' AND id='R3HS8V8QPT2AGU'
+2015-12-06 21:22:31 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3HS8V8QPT2AGU','http://www.amazon.com/gp/customer-reviews/R3HS8V8QPT2AGU','B0137K4K1E','A15NN4RJHG7S1N','5.0','2015-11-22 00:00:00','Awesome product','Five Stars','0','0','1','unused','unused','unused','item','B0137K4K1E',NOW(),NOW())
+2015-12-06 21:22:31 [-] Review Recorded
+2015-12-06 21:24:20 [-] Getting the HTML for Brand
+2015-12-06 21:24:20 [-] Getting the Category
+2015-12-06 21:24:20 [-] Getting the Item Name
+2015-12-06 21:24:20 [-] Getting the Brand Name
+2015-12-06 21:24:20 [-] Getting the Brand Link
+2015-12-06 21:24:20 [-] Getting the Total Reviews
+2015-12-06 21:24:20 [-] Getting the Html For Image
+2015-12-06 21:24:20 [-] Getting the Html For Item Review
+2015-12-06 21:24:20 [!] UPC not Found
+2015-12-06 21:24:20 [-] Executing SQL query: SELECT * FROM items WHERE id='B00RW8L5WA'
+2015-12-06 21:24:20 [-] Item Updated
+2015-12-06 21:24:20 [-] Executing SQL query: INSERT INTO items(id,url,title,image,category,brand_name,review_count,rating,state,referer_type,referer_id,upc,run_timestamp,collection_timestamp) 
+	VALUES('B00RW8L5WA','http://www.amazon.com/dp/B00RW8L5WA','
+      Good Living Collapsible Silicone Bowl With Lid, Assorted Colors
+      
+      
+      
+      
+      
+      
+      
+    ','http://ecx.images-amazon.com/images/I/51MIa0zS0cL._SY300_QL70_.jpg','Kitchen & Dining','Good Living','37','
+','unused','item','B00RW8L5WA','',NOW(),NOW())
+2015-12-06 21:24:20 [-] Item Recorded
+2015-12-06 21:24:20 [-] Executing SQL query: SELECT * FROM brands WHERE referer_id='B00RW8L5WA'
+2015-12-06 21:24:20 [-] Executing SQL query: INSERT INTO brands(name,url,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('Good Living','http://www.amazon.com/Good-Living/b/ref=bl_dp_s_web_8016045011?ie=UTF8&amp;node=8016045011&amp;field-lbr_brands_browse-bin=Good+Living','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:24:20 [-] Brand Recorded
+2015-12-06 21:24:22 [-] Getting Page : http://www.amazon.com/product-reviews/ B00RW8L5WA
+2015-12-06 21:24:27 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=1
+2015-12-06 21:24:27 [-] Getting The User ID
+2015-12-06 21:24:27 [-] Getting Review Rating
+2015-12-06 21:24:27 [-] Getting Review Date
+2015-12-06 21:24:27 [-] Getting The Review Text
+2015-12-06 21:24:27 [-] Getting Review Title
+2015-12-06 21:24:31 [-] Getting the Profile HTML for Reviewer ID : AYABRBZUMRLXQ
+2015-12-06 21:24:31 [-] Getting the Reviewer Name.
+2015-12-06 21:24:31 [-] Getting the Country Name.
+2015-12-06 21:24:31 [-] Getting the Location.
+2015-12-06 21:24:31 [-] Getting Total Review Count
+2015-12-06 21:24:31 [-] Executing SQL query: SELECT * FROM users WHERE id='AYABRBZUMRLXQ'
+2015-12-06 21:24:31 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AYABRBZUMRLXQ','http://www.amazon.com/gp/pdp/profile/AYABRBZUMRLXQ','Lead Writer in Oregon
+','BeUtyTradeReVue','668','','unused','item','blank',NOW(),NOW())
+2015-12-06 21:24:31 [-] User Recorded
+2015-12-06 21:24:31 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='RP9QABEXV6LVR'
+2015-12-06 21:24:31 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RP9QABEXV6LVR','http://www.amazon.com/gp/customer-reviews/RP9QABEXV6LVR','B00RW8L5WA','AYABRBZUMRLXQ','5.0','2015-12-5 00:00:00','This collapsible bowl comes in 3 colors including red, green and purple (pictured).  You can purchase it in single packages or packages of 3 and 48.  It comes with a locking lid for guaranteed spill-proof handling.  This bowl also features a spoon housed in a stay-clean compartment for easy storage and loss prevention.  The bowl expands when used and collapses when empty for easy storage and clean-up.  It\'s perfect for soups, salads, lunches or for outdoor use while camping.  The bowl is easy to clean in the dishwasher and safe to use in the microwave.\n\nFor the purpose of this review, I want to talk about the use of silicone.  To do this, I\'m going to refer to an article published on The Soft Landing in October 2014.  It\'s titled what\'s Silicone and si it Toxic and I\'d like to share it with you now.\n\nWHAT IS SILICONE ANYWAY?\n\nIt is a man-made polymer, but instead of a carbon backbone like plastic, it has a backbone of silicon and oxygen.  Silicon is an element found in silica, i.e. sand, one of the most common materials on earth.  However, to make silicone, silicon is extracted from silica and passed through hydrocarbons to create a new polymer with an inorganic silicon-oxygen backbone and carbon-based side group.  What that means is that while the silicon might come from a relatively benign and plentiful resource like sand, the hydrocarbons in silicone come from fossil sources like petroleum and natural gas.  So slicone is a kind of hybrid material.\n\nSAFETY & RECYCLABILITY OF SILICONE\n\nSilicone has a good track record of safety.  As for recyclability, silicone does not decompose, but it is recyclable - although probably not through your city-wide recycling program.  You\'ll probably have to drive to a specialty recycling facility - but then again, silicone is very durable so you won\'t have to worry about disposal for a long time.  Silicone is not toxic to aquatic or soil organisms, it is hot hazardous waste.  While it\'s not biodegradable, it can be recycled after a lifetime of use.\n\nSILICONE SAFETY IN DISHES & COOKWARE\n\nSilicone dishes are a safe option that won\'s leach harmful chemicals into foods.  Silicone dishes, like this one, is a great alternative to plastics containing known carcinogens or endocrine disruptors.  Its use in baby bottle nipples stretches back over 30 years, standing head and shoulders above nitrosamine-tainted synthetic latex nipples that break down quickly under repeated exposure to heat detergents and moisture.\n\nA LITTLE MORE BACKGROUND ON SILICONE\n\nCan handle temperature extremes, transferring easily from freezer to microwave\nFlexible, durable and shatter resistant\nPetroleum-free\nDishwasher safe\nOdor and stain resistant\nHygienic and hypoallergenic with no open pores to harbor bacteria\nDoes not fade or scratch\n\nTIPS FOR COOKING & USING SILICONE DISHES\n\nBe sure to choose dishes made from 100% food grade silicone.  Fillers can compromise the quality and durability of silicone.\nConfirm that all colorants used are not BPA-based and the lead testing has been done, especially for brightly colored products.\nDon\'t be fooled by thermoplasticized rubber (TPR) dishes.  They look and feel much the same, but TPR isn\'t as durable and doesn\'t tolerate high heat like silicone does.  Products made of TPR often have a rigid plastic skeleton and may warm when exposes to heat.\nBe aware that phosphate free dishwashing detergents may cause silicone dishes to end up with water spots or hold onto certain smells/tastes.  It\'s no big deal, just add some white vinegar or a non-toxic rinse aid to your wash cycle.\n\nAs you can see from the article above, there are many benefits to using silicone dishes.  I really like using this bowl because it flattens down to a compact dish, making for easy storage.  The added spoon is just a bonus for convenient eating on the go.\n\n**I received this product at a reduced rate**','NICE & COMPACT','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:24:31 [-] Review Recorded
+2015-12-06 21:24:31 [-] Getting The User ID
+2015-12-06 21:24:31 [-] Getting Review Rating
+2015-12-06 21:24:31 [-] Getting Review Date
+2015-12-06 21:24:31 [-] Getting The Review Text
+2015-12-06 21:24:31 [-] Getting Review Title
+2015-12-06 21:24:36 [-] Getting the Profile HTML for Reviewer ID : A2UD71SRGZ8BCG
+2015-12-06 21:24:36 [-] Getting the Reviewer Name.
+2015-12-06 21:24:36 [-] Getting the Country Name.
+2015-12-06 21:24:36 [!] No Location Found.
+2015-12-06 21:24:36 [-] Getting Total Review Count
+2015-12-06 21:24:36 [-] Executing SQL query: SELECT * FROM users WHERE id='A2UD71SRGZ8BCG'
+2015-12-06 21:24:36 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2UD71SRGZ8BCG','http://www.amazon.com/gp/pdp/profile/A2UD71SRGZ8BCG','','Christy L Warfel','13','7278142','unused','item','blank',NOW(),NOW())
+2015-12-06 21:24:36 [-] User Recorded
+2015-12-06 21:24:36 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R2CXM80RAG7SGE'
+2015-12-06 21:24:36 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2CXM80RAG7SGE','http://www.amazon.com/gp/customer-reviews/R2CXM80RAG7SGE','B00RW8L5WA','A2UD71SRGZ8BCG','5.0','2015-12-3 00:00:00','awesome and was here quick','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:24:36 [-] Review Recorded
+2015-12-06 21:24:36 [-] Getting The User ID
+2015-12-06 21:24:36 [-] Getting Review Rating
+2015-12-06 21:24:36 [-] Getting Review Date
+2015-12-06 21:24:36 [-] Getting The Review Text
+2015-12-06 21:24:36 [-] Getting Review Title
+2015-12-06 21:24:41 [-] Getting the Profile HTML for Reviewer ID : A1J3AS06Y0QBWY
+2015-12-06 21:24:41 [-] Getting the Reviewer Name.
+2015-12-06 21:24:41 [-] Getting the Country Name.
+2015-12-06 21:24:41 [!] No Location Found.
+2015-12-06 21:24:41 [-] Getting Total Review Count
+2015-12-06 21:24:41 [-] Executing SQL query: SELECT * FROM users WHERE id='A1J3AS06Y0QBWY'
+2015-12-06 21:24:41 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1J3AS06Y0QBWY','http://www.amazon.com/gp/pdp/profile/A1J3AS06Y0QBWY','','cknddrc','157','279882','unused','item','blank',NOW(),NOW())
+2015-12-06 21:24:41 [-] User Recorded
+2015-12-06 21:24:41 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R1NGQXUSZBOUC6'
+2015-12-06 21:24:41 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R1NGQXUSZBOUC6','http://www.amazon.com/gp/customer-reviews/R1NGQXUSZBOUC6','B00RW8L5WA','A1J3AS06Y0QBWY','5.0','2015-12-2 00:00:00','Perfect for lunch to work. The lid goes on easily and stays put.  Washes nicely and stores flat when collapsed.  Would highly recommend.','Perfect for lunch to work','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:24:41 [-] Review Recorded
+2015-12-06 21:24:41 [-] Getting The User ID
+2015-12-06 21:24:41 [-] Getting Review Rating
+2015-12-06 21:24:41 [-] Getting Review Date
+2015-12-06 21:24:41 [-] Getting The Review Text
+2015-12-06 21:24:41 [-] Getting Review Title
+2015-12-06 21:24:45 [-] Getting the Profile HTML for Reviewer ID : A3U6JBE9IVUIH3
+2015-12-06 21:24:45 [-] Getting the Reviewer Name.
+2015-12-06 21:24:45 [-] Getting the Country Name.
+2015-12-06 21:24:45 [-] Getting the Location.
+2015-12-06 21:24:45 [-] Getting Total Review Count
+2015-12-06 21:24:45 [-] Executing SQL query: SELECT * FROM users WHERE id='A3U6JBE9IVUIH3'
+2015-12-06 21:24:45 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3U6JBE9IVUIH3','http://www.amazon.com/gp/pdp/profile/A3U6JBE9IVUIH3','BLOOMINGTON, IL, US
+','Andres Martinez','65','674370','unused','item','blank',NOW(),NOW())
+2015-12-06 21:24:45 [-] User Recorded
+2015-12-06 21:24:45 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R26DCM7I5J7A0X'
+2015-12-06 21:24:45 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R26DCM7I5J7A0X','http://www.amazon.com/gp/customer-reviews/R26DCM7I5J7A0X','B00RW8L5WA','A3U6JBE9IVUIH3','5.0','2015-12-1 00:00:00','Love love love this bowl. I\'m always looking for something to take my lunch in that doesn\'t take much room. This is very well made, very brightly colored, holds a lot, and holds up through a microwave and dishwasher. Love the spoon on top too!!','Love love love this bowl','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:24:45 [-] Review Recorded
+2015-12-06 21:24:45 [-] Getting The User ID
+2015-12-06 21:24:45 [-] Getting Review Rating
+2015-12-06 21:24:45 [-] Getting Review Date
+2015-12-06 21:24:45 [-] Getting The Review Text
+2015-12-06 21:24:45 [-] Getting Review Title
+2015-12-06 21:24:50 [-] Getting the Profile HTML for Reviewer ID : A1O74VHJMY31ZB
+2015-12-06 21:24:50 [-] Getting the Reviewer Name.
+2015-12-06 21:24:50 [-] Getting the Country Name.
+2015-12-06 21:24:50 [!] No Location Found.
+2015-12-06 21:24:50 [-] Getting Total Review Count
+2015-12-06 21:24:50 [-] Executing SQL query: SELECT * FROM users WHERE id='A1O74VHJMY31ZB'
+2015-12-06 21:24:50 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1O74VHJMY31ZB','http://www.amazon.com/gp/pdp/profile/A1O74VHJMY31ZB','','DeDe','58','463351','unused','item','blank',NOW(),NOW())
+2015-12-06 21:24:50 [-] User Recorded
+2015-12-06 21:24:50 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='RL8DG2BPHKNIQ'
+2015-12-06 21:24:50 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RL8DG2BPHKNIQ','http://www.amazon.com/gp/customer-reviews/RL8DG2BPHKNIQ','B00RW8L5WA','A1O74VHJMY31ZB','5.0','2015-12-1 00:00:00','Great for my lunch box! Has held up well through microwave, dishwasher etc.Especially useful now that winter is here and I love having hot soups, or chili for my lunch. Yum! I did receive at a discounted price for my honest review and I honestly love it!','Great for my lunch box','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:24:50 [-] Review Recorded
+2015-12-06 21:24:50 [-] Getting The User ID
+2015-12-06 21:24:50 [-] Getting Review Rating
+2015-12-06 21:24:50 [-] Getting Review Date
+2015-12-06 21:24:50 [-] Getting The Review Text
+2015-12-06 21:24:50 [-] Getting Review Title
+2015-12-06 21:24:55 [-] Getting the Profile HTML for Reviewer ID : A6UY9VL3RGC5B
+2015-12-06 21:24:55 [-] Getting the Reviewer Name.
+2015-12-06 21:24:55 [-] Getting the Country Name.
+2015-12-06 21:24:55 [-] Getting the Location.
+2015-12-06 21:24:55 [-] Getting Total Review Count
+2015-12-06 21:24:55 [-] Executing SQL query: SELECT * FROM users WHERE id='A6UY9VL3RGC5B'
+2015-12-06 21:24:55 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A6UY9VL3RGC5B','http://www.amazon.com/gp/pdp/profile/A6UY9VL3RGC5B','God's Kingdom
+','Amazon Customer','23','379606','unused','item','blank',NOW(),NOW())
+2015-12-06 21:24:55 [!] Amazon Customer reviewer record Error message
+You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 's Kingdom
+','Amazon Customer','23','379606','unused','item','blank',NOW(),NOW())' at line 2
+2015-12-06 21:24:55 [-] User Recorded
+2015-12-06 21:24:55 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R7DO06XG0R9R9'
+2015-12-06 21:24:55 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R7DO06XG0R9R9','http://www.amazon.com/gp/customer-reviews/R7DO06XG0R9R9','B00RW8L5WA','A6UY9VL3RGC5B','5.0','2015-11-30 00:00:00','Saves space and I love that it\'s portable!','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:24:55 [-] Review Recorded
+2015-12-06 21:24:55 [-] Getting The User ID
+2015-12-06 21:24:55 [-] Getting Review Rating
+2015-12-06 21:24:55 [-] Getting Review Date
+2015-12-06 21:24:55 [-] Getting The Review Text
+2015-12-06 21:24:55 [-] Getting Review Title
+2015-12-06 21:25:00 [-] Getting the Profile HTML for Reviewer ID : A1LGBEZ7ZE282G
+2015-12-06 21:25:00 [!] Error Getting the Reviewer Name.
+2015-12-06 21:25:00 [-] Getting the Country Name.
+2015-12-06 21:25:00 [!] No Location Found.
+2015-12-06 21:25:00 [-] Getting Total Review Count
+2015-12-06 21:25:00 [-] Executing SQL query: SELECT * FROM users WHERE id='A1LGBEZ7ZE282G'
+2015-12-06 21:25:00 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1LGBEZ7ZE282G','http://www.amazon.com/gp/pdp/profile/A1LGBEZ7ZE282G','','','16','2825597','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:00 [-] User Recorded
+2015-12-06 21:25:00 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R2DQ27URJ0ZJ9R'
+2015-12-06 21:25:00 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2DQ27URJ0ZJ9R','http://www.amazon.com/gp/customer-reviews/R2DQ27URJ0ZJ9R','B00RW8L5WA','A1LGBEZ7ZE282G','5.0','2015-11-27 00:00:00','Love my collapsible bowl. Good build quality. Easy to clean and store. Works great.','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:00 [-] Review Recorded
+2015-12-06 21:25:00 [-] Getting The User ID
+2015-12-06 21:25:00 [-] Getting Review Rating
+2015-12-06 21:25:00 [-] Getting Review Date
+2015-12-06 21:25:00 [-] Getting The Review Text
+2015-12-06 21:25:00 [-] Getting Review Title
+2015-12-06 21:25:04 [-] Getting the Profile HTML for Reviewer ID : A3AYCMI7LVLOZY
+2015-12-06 21:25:04 [-] Getting the Reviewer Name.
+2015-12-06 21:25:04 [-] Getting the Country Name.
+2015-12-06 21:25:04 [-] Getting the Location.
+2015-12-06 21:25:04 [-] Getting Total Review Count
+2015-12-06 21:25:04 [-] Executing SQL query: SELECT * FROM users WHERE id='A3AYCMI7LVLOZY'
+2015-12-06 21:25:04 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3AYCMI7LVLOZY','http://www.amazon.com/gp/pdp/profile/A3AYCMI7LVLOZY','Irvine, California
+','IrvPost','38','','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:04 [-] User Recorded
+2015-12-06 21:25:04 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='RCW355XS8HY8W'
+2015-12-06 21:25:04 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RCW355XS8HY8W','http://www.amazon.com/gp/customer-reviews/RCW355XS8HY8W','B00RW8L5WA','A3AYCMI7LVLOZY','4.0','2015-11-23 00:00:00','Almost! The bowl has a rigid ring that the lid clamps to and serves as a very good carry handle to keep from burning yourself. Lid clamps on tight and is airtight, putting the lid on and only fastening 1 clip acts as a very good splash guard. High quality materials. The only issue is that the first time I tried to put the lid on I pushed a Little too hard and collapsed the bowl spilling cold clam chowder all over the table. I should have known better but did not think it out before hand, Collapsible bowl and how do you collapse it.....By pushing on it. Solved by holding in both hands with fingers under the rigid lid and snapping the tabs with my thumbs. Very good product. Like I said it cleans up well, no need to take the bowl home to wash. Also it gets none of the rough sides from cooking creamy soups like the plastic bowls do. Easily hold a can pf Progresso soup within about an inch to the top.','Almost Perfect','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:04 [-] Review Recorded
+2015-12-06 21:25:04 [-] Getting The User ID
+2015-12-06 21:25:04 [-] Getting Review Rating
+2015-12-06 21:25:04 [-] Getting Review Date
+2015-12-06 21:25:04 [-] Getting The Review Text
+2015-12-06 21:25:04 [-] Getting Review Title
+2015-12-06 21:25:09 [-] Getting the Profile HTML for Reviewer ID : A199J6OFMRVHGJ
+2015-12-06 21:25:09 [-] Getting the Reviewer Name.
+2015-12-06 21:25:09 [-] Getting the Country Name.
+2015-12-06 21:25:09 [-] Getting the Location.
+2015-12-06 21:25:09 [-] Getting Total Review Count
+2015-12-06 21:25:09 [-] Executing SQL query: SELECT * FROM users WHERE id='A199J6OFMRVHGJ'
+2015-12-06 21:25:09 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A199J6OFMRVHGJ','http://www.amazon.com/gp/pdp/profile/A199J6OFMRVHGJ','Dallas, TX
+','Velmaris Ojeda','56','477062','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:09 [-] User Recorded
+2015-12-06 21:25:09 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R2LJQIWDO8HIBA'
+2015-12-06 21:25:09 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2LJQIWDO8HIBA','http://www.amazon.com/gp/customer-reviews/R2LJQIWDO8HIBA','B00RW8L5WA','A199J6OFMRVHGJ','5.0','2015-11-23 00:00:00','Stylish and practical. I love my bowl. Seals well, so I can toss it in my bag and the food stays in place, doesn\'t leak, and the odors stay in place too.','Great bowl','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:09 [-] Review Recorded
+2015-12-06 21:25:09 [-] Getting The User ID
+2015-12-06 21:25:09 [-] Getting Review Rating
+2015-12-06 21:25:09 [-] Getting Review Date
+2015-12-06 21:25:09 [-] Getting The Review Text
+2015-12-06 21:25:09 [-] Getting Review Title
+2015-12-06 21:25:14 [-] Getting the Profile HTML for Reviewer ID : A2PXJFCCTAI5IS
+2015-12-06 21:25:14 [-] Getting the Reviewer Name.
+2015-12-06 21:25:14 [-] Getting the Country Name.
+2015-12-06 21:25:14 [!] No Location Found.
+2015-12-06 21:25:14 [-] Getting Total Review Count
+2015-12-06 21:25:14 [-] Executing SQL query: SELECT * FROM users WHERE id='A2PXJFCCTAI5IS'
+2015-12-06 21:25:14 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2PXJFCCTAI5IS','http://www.amazon.com/gp/pdp/profile/A2PXJFCCTAI5IS','','Noelle','29','2204780','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:14 [-] User Recorded
+2015-12-06 21:25:14 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R2Q19QWQDQ446N'
+2015-12-06 21:25:14 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2Q19QWQDQ446N','http://www.amazon.com/gp/customer-reviews/R2Q19QWQDQ446N','B00RW8L5WA','A2PXJFCCTAI5IS','5.0','2015-11-23 00:00:00','Great product!','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:14 [-] Review Recorded
+2015-12-06 21:25:20 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=2
+2015-12-06 21:25:20 [-] Getting The User ID
+2015-12-06 21:25:20 [-] Getting Review Rating
+2015-12-06 21:25:20 [-] Getting Review Date
+2015-12-06 21:25:20 [-] Getting The Review Text
+2015-12-06 21:25:20 [-] Getting Review Title
+2015-12-06 21:25:27 [-] Getting the Profile HTML for Reviewer ID : AN06OP0MKD5DP
+2015-12-06 21:25:27 [-] Getting the Reviewer Name.
+2015-12-06 21:25:27 [-] Getting the Country Name.
+2015-12-06 21:25:27 [!] No Location Found.
+2015-12-06 21:25:27 [-] Getting Total Review Count
+2015-12-06 21:25:27 [-] Executing SQL query: SELECT * FROM users WHERE id='AN06OP0MKD5DP'
+2015-12-06 21:25:27 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AN06OP0MKD5DP','http://www.amazon.com/gp/pdp/profile/AN06OP0MKD5DP','','graciegirl','40','36464351','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:27 [-] User Recorded
+2015-12-06 21:25:27 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R1AH1K2RBFCWWJ'
+2015-12-06 21:25:27 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R1AH1K2RBFCWWJ','http://www.amazon.com/gp/customer-reviews/R1AH1K2RBFCWWJ','B00RW8L5WA','AN06OP0MKD5DP','5.0','2015-11-22 00:00:00','Love it!!! Works Works great in my lunchbox. Washes up nicely in the dishwasher. Then you can just fold it down and store it conveniently with the lid! Ordered 2 more!!!','Love it!!!!!','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:27 [-] Review Recorded
+2015-12-06 21:25:27 [-] Getting The User ID
+2015-12-06 21:25:27 [-] Getting Review Rating
+2015-12-06 21:25:27 [-] Getting Review Date
+2015-12-06 21:25:27 [-] Getting The Review Text
+2015-12-06 21:25:27 [-] Getting Review Title
+2015-12-06 21:25:33 [-] Getting the Profile HTML for Reviewer ID : A3IWPQYK4VQMTV
+2015-12-06 21:25:33 [-] Getting the Reviewer Name.
+2015-12-06 21:25:33 [-] Getting the Country Name.
+2015-12-06 21:25:33 [!] No Location Found.
+2015-12-06 21:25:33 [-] Getting Total Review Count
+2015-12-06 21:25:33 [-] Executing SQL query: SELECT * FROM users WHERE id='A3IWPQYK4VQMTV'
+2015-12-06 21:25:33 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3IWPQYK4VQMTV','http://www.amazon.com/gp/pdp/profile/A3IWPQYK4VQMTV','','Mommahen','12','3471390','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:33 [-] User Recorded
+2015-12-06 21:25:33 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='RUIP2ADG2LY7P'
+2015-12-06 21:25:33 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RUIP2ADG2LY7P','http://www.amazon.com/gp/customer-reviews/RUIP2ADG2LY7P','B00RW8L5WA','A3IWPQYK4VQMTV','5.0','2015-11-20 00:00:00','Great bowl!  Just as described!  Fun colors!','Great bowl! Just as described','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:33 [-] Review Recorded
+2015-12-06 21:25:33 [-] Getting The User ID
+2015-12-06 21:25:33 [-] Getting Review Rating
+2015-12-06 21:25:33 [-] Getting Review Date
+2015-12-06 21:25:33 [-] Getting The Review Text
+2015-12-06 21:25:33 [-] Getting Review Title
+2015-12-06 21:25:39 [-] Getting the Profile HTML for Reviewer ID : A3DVCWW5CL9QXN
+2015-12-06 21:25:39 [-] Getting the Reviewer Name.
+2015-12-06 21:25:39 [-] Getting the Country Name.
+2015-12-06 21:25:39 [!] No Location Found.
+2015-12-06 21:25:39 [-] Getting Total Review Count
+2015-12-06 21:25:39 [-] Executing SQL query: SELECT * FROM users WHERE id='A3DVCWW5CL9QXN'
+2015-12-06 21:25:39 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3DVCWW5CL9QXN','http://www.amazon.com/gp/pdp/profile/A3DVCWW5CL9QXN','','Scott and Kelly','59','394983','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:39 [-] User Recorded
+2015-12-06 21:25:39 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R3UKSCXO9FV3QQ'
+2015-12-06 21:25:39 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3UKSCXO9FV3QQ','http://www.amazon.com/gp/customer-reviews/R3UKSCXO9FV3QQ','B00RW8L5WA','A3DVCWW5CL9QXN','5.0','2015-11-20 00:00:00','This is really convenient and cool. I like that it\'s silicone because I stay away from plastic as much as possible. The BPA and other endocrine-disrupting chemicals from plastic leach into food, especially if it\'s acidic food. So I much prefer silicone.','Very good way to store leftovers.','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:39 [-] Review Recorded
+2015-12-06 21:25:39 [-] Getting The User ID
+2015-12-06 21:25:39 [-] Getting Review Rating
+2015-12-06 21:25:39 [-] Getting Review Date
+2015-12-06 21:25:39 [-] Getting The Review Text
+2015-12-06 21:25:39 [-] Getting Review Title
+2015-12-06 21:25:45 [-] Getting the Profile HTML for Reviewer ID : A1WYDEO65XZVPU
+2015-12-06 21:25:45 [-] Getting the Reviewer Name.
+2015-12-06 21:25:45 [-] Getting the Country Name.
+2015-12-06 21:25:45 [-] Getting the Location.
+2015-12-06 21:25:45 [-] Getting Total Review Count
+2015-12-06 21:25:45 [-] Executing SQL query: SELECT * FROM users WHERE id='A1WYDEO65XZVPU'
+2015-12-06 21:25:45 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1WYDEO65XZVPU','http://www.amazon.com/gp/pdp/profile/A1WYDEO65XZVPU','Houston, TX
+','Amazon Customer','20','26482275','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:45 [-] User Recorded
+2015-12-06 21:25:45 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='RGWWJGB5UTI07'
+2015-12-06 21:25:45 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RGWWJGB5UTI07','http://www.amazon.com/gp/customer-reviews/RGWWJGB5UTI07','B00RW8L5WA','A1WYDEO65XZVPU','4.0','2015-11-18 00:00:00','Need 4 more.  Wonderful for taking my lunch to work.','Wonderful for taking my lunch to work','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:45 [-] Review Recorded
+2015-12-06 21:25:45 [-] Getting The User ID
+2015-12-06 21:25:45 [-] Getting Review Rating
+2015-12-06 21:25:45 [-] Getting Review Date
+2015-12-06 21:25:45 [-] Getting The Review Text
+2015-12-06 21:25:45 [-] Getting Review Title
+2015-12-06 21:25:51 [-] Getting the Profile HTML for Reviewer ID : A8GNFVLCYH8MS
+2015-12-06 21:25:51 [-] Getting the Reviewer Name.
+2015-12-06 21:25:51 [-] Getting the Country Name.
+2015-12-06 21:25:51 [!] No Location Found.
+2015-12-06 21:25:51 [-] Getting Total Review Count
+2015-12-06 21:25:51 [-] Executing SQL query: SELECT * FROM users WHERE id='A8GNFVLCYH8MS'
+2015-12-06 21:25:51 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A8GNFVLCYH8MS','http://www.amazon.com/gp/pdp/profile/A8GNFVLCYH8MS','','Maria','91','165332','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:51 [-] User Recorded
+2015-12-06 21:25:51 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R2TIF7WWI2MI9C'
+2015-12-06 21:25:51 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2TIF7WWI2MI9C','http://www.amazon.com/gp/customer-reviews/R2TIF7WWI2MI9C','B00RW8L5WA','A8GNFVLCYH8MS','5.0','2015-11-17 00:00:00','this is good to carry after having a food.','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:51 [-] Review Recorded
+2015-12-06 21:25:51 [-] Getting The User ID
+2015-12-06 21:25:51 [-] Getting Review Rating
+2015-12-06 21:25:51 [-] Getting Review Date
+2015-12-06 21:25:51 [-] Getting The Review Text
+2015-12-06 21:25:51 [-] Getting Review Title
+2015-12-06 21:25:57 [-] Getting the Profile HTML for Reviewer ID : A19PP48H5WFFKR
+2015-12-06 21:25:57 [-] Getting the Reviewer Name.
+2015-12-06 21:25:57 [-] Getting the Country Name.
+2015-12-06 21:25:57 [!] No Location Found.
+2015-12-06 21:25:57 [-] Getting Total Review Count
+2015-12-06 21:25:57 [-] Executing SQL query: SELECT * FROM users WHERE id='A19PP48H5WFFKR'
+2015-12-06 21:25:57 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A19PP48H5WFFKR','http://www.amazon.com/gp/pdp/profile/A19PP48H5WFFKR','','lucienne','14','1169241','unused','item','blank',NOW(),NOW())
+2015-12-06 21:25:57 [-] User Recorded
+2015-12-06 21:25:57 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R230Z1A87HKVHI'
+2015-12-06 21:25:57 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R230Z1A87HKVHI','http://www.amazon.com/gp/customer-reviews/R230Z1A87HKVHI','B00RW8L5WA','A19PP48H5WFFKR','5.0','2015-11-16 00:00:00','nice quality. like the size. works well in the microwave. cleans up super easy. lid locks on tightly. very happy with my purchase.','all around a good product','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:25:57 [-] Review Recorded
+2015-12-06 21:25:57 [-] Getting The User ID
+2015-12-06 21:25:57 [-] Getting Review Rating
+2015-12-06 21:25:57 [-] Getting Review Date
+2015-12-06 21:25:57 [-] Getting The Review Text
+2015-12-06 21:25:57 [-] Getting Review Title
+2015-12-06 21:26:03 [-] Getting the Profile HTML for Reviewer ID : A3MILV0NDFSJNY
+2015-12-06 21:26:03 [-] Getting the Reviewer Name.
+2015-12-06 21:26:03 [-] Getting the Country Name.
+2015-12-06 21:26:03 [-] Getting the Location.
+2015-12-06 21:26:03 [-] Getting Total Review Count
+2015-12-06 21:26:03 [-] Executing SQL query: SELECT * FROM users WHERE id='A3MILV0NDFSJNY'
+2015-12-06 21:26:03 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3MILV0NDFSJNY','http://www.amazon.com/gp/pdp/profile/A3MILV0NDFSJNY','Richmond, Virginia United States
+','Emily Clarke','19','1669897','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:03 [-] User Recorded
+2015-12-06 21:26:03 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R1GWGLXR0OC7WY'
+2015-12-06 21:26:03 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R1GWGLXR0OC7WY','http://www.amazon.com/gp/customer-reviews/R1GWGLXR0OC7WY','B00RW8L5WA','A3MILV0NDFSJNY','5.0','2015-11-16 00:00:00','Love these bowls! Excellent quality and they are great for organization in a small kitchen.','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:03 [-] Review Recorded
+2015-12-06 21:26:03 [-] Getting The User ID
+2015-12-06 21:26:03 [-] Getting Review Rating
+2015-12-06 21:26:03 [-] Getting Review Date
+2015-12-06 21:26:03 [-] Getting The Review Text
+2015-12-06 21:26:03 [-] Getting Review Title
+2015-12-06 21:26:08 [-] Getting the Profile HTML for Reviewer ID : A2585PUKI0457D
+2015-12-06 21:26:08 [-] Getting the Reviewer Name.
+2015-12-06 21:26:08 [-] Getting the Country Name.
+2015-12-06 21:26:08 [-] Getting the Location.
+2015-12-06 21:26:08 [-] Getting Total Review Count
+2015-12-06 21:26:08 [-] Executing SQL query: SELECT * FROM users WHERE id='A2585PUKI0457D'
+2015-12-06 21:26:08 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2585PUKI0457D','http://www.amazon.com/gp/pdp/profile/A2585PUKI0457D','ND, USA
+','S. Wangler','59','200523','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:08 [-] User Recorded
+2015-12-06 21:26:08 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R5FAO1OIDAJN8'
+2015-12-06 21:26:08 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R5FAO1OIDAJN8','http://www.amazon.com/gp/customer-reviews/R5FAO1OIDAJN8','B00RW8L5WA','A2585PUKI0457D','4.0','2015-11-14 00:00:00','This is a pretty cool bowl! Love the built in spoon. It\'s great for taking leftovers to work etc. My only complaint is that two (opposing) sides of the lid seem extra difficult to latch for some reason. I really have to push ridiculously hard on the lid to get them to close. Would be nice to choose your color, but ¯\\_(ツ)_/¯','Cool bowl, tough latches','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:08 [-] Review Recorded
+2015-12-06 21:26:08 [-] Getting The User ID
+2015-12-06 21:26:08 [-] Getting Review Rating
+2015-12-06 21:26:08 [-] Getting Review Date
+2015-12-06 21:26:08 [-] Getting The Review Text
+2015-12-06 21:26:08 [-] Getting Review Title
+2015-12-06 21:26:14 [-] Getting the Profile HTML for Reviewer ID : A3GSRHKJWRWFI0
+2015-12-06 21:26:14 [-] Getting the Reviewer Name.
+2015-12-06 21:26:14 [-] Getting the Country Name.
+2015-12-06 21:26:14 [-] Getting the Location.
+2015-12-06 21:26:14 [-] Getting Total Review Count
+2015-12-06 21:26:14 [-] Executing SQL query: SELECT * FROM users WHERE id='A3GSRHKJWRWFI0'
+2015-12-06 21:26:14 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3GSRHKJWRWFI0','http://www.amazon.com/gp/pdp/profile/A3GSRHKJWRWFI0','Long Island, New York
+','P. Lanigan','16','1122351','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:14 [-] User Recorded
+2015-12-06 21:26:14 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R2KC75APWQ0O2K'
+2015-12-06 21:26:14 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2KC75APWQ0O2K','http://www.amazon.com/gp/customer-reviews/R2KC75APWQ0O2K','B00RW8L5WA','A3GSRHKJWRWFI0','5.0','2015-11-14 00:00:00','Love it!  My daughter claimed it as soon as I unpacked it from its mailing box.  She has been using it every single day for breakfast at school.  They are allowed to go to school to eat early, but she only goes to meet her friends.  Now she brings her bowl and adds the cereal and milk, instead of trying to eat the cereal out of the cereal box.  She loves it, and I love it because I know she is eating properly.  To boot, she even washes it herself!  Now if you could only make a full set of pots and pans and cups and dishes out of the collapsible Silicone, I would never have to do another dish again!','Love it! My daughter claimed it as soon as ...','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:14 [-] Review Recorded
+2015-12-06 21:26:14 [-] Getting The User ID
+2015-12-06 21:26:14 [-] Getting Review Rating
+2015-12-06 21:26:14 [-] Getting Review Date
+2015-12-06 21:26:14 [-] Getting The Review Text
+2015-12-06 21:26:14 [-] Getting Review Title
+2015-12-06 21:26:20 [-] Getting the Profile HTML for Reviewer ID : A2E7H8Y0ZABVS1
+2015-12-06 21:26:20 [-] Getting the Reviewer Name.
+2015-12-06 21:26:20 [-] Getting the Country Name.
+2015-12-06 21:26:20 [!] No Location Found.
+2015-12-06 21:26:20 [-] Getting Total Review Count
+2015-12-06 21:26:20 [-] Executing SQL query: SELECT * FROM users WHERE id='A2E7H8Y0ZABVS1'
+2015-12-06 21:26:20 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2E7H8Y0ZABVS1','http://www.amazon.com/gp/pdp/profile/A2E7H8Y0ZABVS1','','VIVIANE PAGAN','20','36230830','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:20 [-] User Recorded
+2015-12-06 21:26:20 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R208QVHOEADAQJ'
+2015-12-06 21:26:20 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R208QVHOEADAQJ','http://www.amazon.com/gp/customer-reviews/R208QVHOEADAQJ','B00RW8L5WA','A2E7H8Y0ZABVS1','5.0','2015-11-14 00:00:00','Thanks for fast delivery... Love it!!','Love it!','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:20 [-] Review Recorded
+2015-12-06 21:26:25 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=3
+2015-12-06 21:26:25 [-] Getting The User ID
+2015-12-06 21:26:25 [-] Getting Review Rating
+2015-12-06 21:26:25 [-] Getting Review Date
+2015-12-06 21:26:25 [-] Getting The Review Text
+2015-12-06 21:26:25 [-] Getting Review Title
+2015-12-06 21:26:30 [-] Getting the Profile HTML for Reviewer ID : AV8OWNRSJ4GAL
+2015-12-06 21:26:30 [-] Getting the Reviewer Name.
+2015-12-06 21:26:30 [-] Getting the Country Name.
+2015-12-06 21:26:30 [-] Getting the Location.
+2015-12-06 21:26:30 [-] Getting Total Review Count
+2015-12-06 21:26:30 [-] Executing SQL query: SELECT * FROM users WHERE id='AV8OWNRSJ4GAL'
+2015-12-06 21:26:30 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AV8OWNRSJ4GAL','http://www.amazon.com/gp/pdp/profile/AV8OWNRSJ4GAL','Engineer in Beaver, PA
+','JuanMooreBeer','28','989312','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:30 [-] User Recorded
+2015-12-06 21:26:30 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R7ZLH62O9ASJ9'
+2015-12-06 21:26:30 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R7ZLH62O9ASJ9','http://www.amazon.com/gp/customer-reviews/R7ZLH62O9ASJ9','B00RW8L5WA','AV8OWNRSJ4GAL','5.0','2015-11-14 00:00:00','I received my Good Living Collapsible Silicone Bowl on time and packaged perfectly. This bowl has a capacity of just over 3 cups and is perfect for packing my lunch for work. The lid has four latches that makes it seal very well and a compartment for an included spoon. When empty, the container collapses to a thin disc, approximately 1 1/4&#34; thick. Overall, a very cool design and very functional container.\n(The container in the photographs is water spotted from my dishwasher, I have terribly hard water.)','Fantastic convenient lunch bowl!','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:30 [-] Review Recorded
+2015-12-06 21:26:30 [-] Getting The User ID
+2015-12-06 21:26:30 [-] Getting Review Rating
+2015-12-06 21:26:30 [-] Getting Review Date
+2015-12-06 21:26:30 [-] Getting The Review Text
+2015-12-06 21:26:30 [-] Getting Review Title
+2015-12-06 21:26:36 [-] Getting the Profile HTML for Reviewer ID : A2VE821GGAWZ9D
+2015-12-06 21:26:36 [-] Getting the Reviewer Name.
+2015-12-06 21:26:36 [-] Getting the Country Name.
+2015-12-06 21:26:36 [!] No Location Found.
+2015-12-06 21:26:36 [-] Getting Total Review Count
+2015-12-06 21:26:36 [-] Executing SQL query: SELECT * FROM users WHERE id='A2VE821GGAWZ9D'
+2015-12-06 21:26:36 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2VE821GGAWZ9D','http://www.amazon.com/gp/pdp/profile/A2VE821GGAWZ9D','','M Conn','24','758156','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:36 [-] User Recorded
+2015-12-06 21:26:36 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R36WZDX4M943B8'
+2015-12-06 21:26:36 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R36WZDX4M943B8','http://www.amazon.com/gp/customer-reviews/R36WZDX4M943B8','B00RW8L5WA','A2VE821GGAWZ9D','5.0','2015-11-14 00:00:00','The silicone collapsible bowl does exactly what it is supposed to do. Very handy to take lunch to the office, and then rinse and collapse to take home.\n\nThe only trouble we found was the tendency to collapse when putting the lid on while it was full - but that would be an issue with any collapsible bowl, and not just the one from Good Living.\n\nOverall very pleased.\n\n(Fair disclosure - I received this product at a discount in exchange for a fair and unbiased review)','Great for hauling lunch to the office!','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:36 [-] Review Recorded
+2015-12-06 21:26:36 [-] Getting The User ID
+2015-12-06 21:26:36 [-] Getting Review Rating
+2015-12-06 21:26:36 [-] Getting Review Date
+2015-12-06 21:26:36 [-] Getting The Review Text
+2015-12-06 21:26:36 [-] Getting Review Title
+2015-12-06 21:26:40 [-] Getting the Profile HTML for Reviewer ID : A2GSTGCEYZICFI
+2015-12-06 21:26:40 [-] Getting the Reviewer Name.
+2015-12-06 21:26:40 [-] Getting the Country Name.
+2015-12-06 21:26:40 [!] No Location Found.
+2015-12-06 21:26:40 [-] Getting Total Review Count
+2015-12-06 21:26:40 [-] Executing SQL query: SELECT * FROM users WHERE id='A2GSTGCEYZICFI'
+2015-12-06 21:26:40 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2GSTGCEYZICFI','http://www.amazon.com/gp/pdp/profile/A2GSTGCEYZICFI','','jacki botts','16','36246046','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:40 [-] User Recorded
+2015-12-06 21:26:40 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R3ILBZMGHNPJPK'
+2015-12-06 21:26:40 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3ILBZMGHNPJPK','http://www.amazon.com/gp/customer-reviews/R3ILBZMGHNPJPK','B00RW8L5WA','A2GSTGCEYZICFI','5.0','2015-11-14 00:00:00','Very sturdy and saves lots of space on storing.','Great','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:40 [-] Review Recorded
+2015-12-06 21:26:40 [-] Getting The User ID
+2015-12-06 21:26:40 [-] Getting Review Rating
+2015-12-06 21:26:40 [-] Getting Review Date
+2015-12-06 21:26:40 [-] Getting The Review Text
+2015-12-06 21:26:40 [-] Getting Review Title
+2015-12-06 21:26:45 [-] Getting the Profile HTML for Reviewer ID : A2R778WMD1HD7O
+2015-12-06 21:26:45 [-] Getting the Reviewer Name.
+2015-12-06 21:26:45 [-] Getting the Country Name.
+2015-12-06 21:26:45 [!] No Location Found.
+2015-12-06 21:26:45 [-] Getting Total Review Count
+2015-12-06 21:26:45 [-] Executing SQL query: SELECT * FROM users WHERE id='A2R778WMD1HD7O'
+2015-12-06 21:26:45 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A2R778WMD1HD7O','http://www.amazon.com/gp/pdp/profile/A2R778WMD1HD7O','','quietspirit','35','','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:45 [-] User Recorded
+2015-12-06 21:26:45 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R5NURZLLJ29MB'
+2015-12-06 21:26:45 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R5NURZLLJ29MB','http://www.amazon.com/gp/customer-reviews/R5NURZLLJ29MB','B00RW8L5WA','A2R778WMD1HD7O','5.0','2015-11-13 00:00:00','Replaced quickly due to damage.  Would order again  .  received this product at a discount for my opinion.','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:45 [-] Review Recorded
+2015-12-06 21:26:45 [-] Getting The User ID
+2015-12-06 21:26:45 [-] Getting Review Rating
+2015-12-06 21:26:45 [-] Getting Review Date
+2015-12-06 21:26:45 [-] Getting The Review Text
+2015-12-06 21:26:45 [-] Getting Review Title
+2015-12-06 21:26:50 [-] Getting the Profile HTML for Reviewer ID : AYS2DZD7LZKW1
+2015-12-06 21:26:50 [!] Error Getting the Reviewer Name.
+2015-12-06 21:26:50 [-] Getting the Country Name.
+2015-12-06 21:26:50 [-] Getting the Location.
+2015-12-06 21:26:50 [-] Getting Total Review Count
+2015-12-06 21:26:50 [-] Executing SQL query: SELECT * FROM users WHERE id='AYS2DZD7LZKW1'
+2015-12-06 21:26:50 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AYS2DZD7LZKW1','http://www.amazon.com/gp/pdp/profile/AYS2DZD7LZKW1','Pittsburgh, PA USA
+','','109','154219','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:50 [-] User Recorded
+2015-12-06 21:26:50 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R24PU9JGWLZZPF'
+2015-12-06 21:26:50 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R24PU9JGWLZZPF','http://www.amazon.com/gp/customer-reviews/R24PU9JGWLZZPF','B00RW8L5WA','AYS2DZD7LZKW1','5.0','2015-11-11 00:00:00','I bought this for my Wife\'s lunch. She began using it immediately. Very convenient and high quality!','VERY convenient.','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:50 [-] Review Recorded
+2015-12-06 21:26:50 [-] Getting The User ID
+2015-12-06 21:26:50 [-] Getting Review Rating
+2015-12-06 21:26:50 [-] Getting Review Date
+2015-12-06 21:26:50 [-] Getting The Review Text
+2015-12-06 21:26:50 [-] Getting Review Title
+2015-12-06 21:26:55 [-] Getting the Profile HTML for Reviewer ID : AX6F4AGJLOFD6
+2015-12-06 21:26:55 [-] Getting the Reviewer Name.
+2015-12-06 21:26:55 [-] Getting the Country Name.
+2015-12-06 21:26:55 [!] No Location Found.
+2015-12-06 21:26:55 [-] Getting Total Review Count
+2015-12-06 21:26:55 [-] Executing SQL query: SELECT * FROM users WHERE id='AX6F4AGJLOFD6'
+2015-12-06 21:26:55 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AX6F4AGJLOFD6','http://www.amazon.com/gp/pdp/profile/AX6F4AGJLOFD6','','Daniel Rumery','63','362093','unused','item','blank',NOW(),NOW())
+2015-12-06 21:26:55 [-] User Recorded
+2015-12-06 21:26:55 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R2LQUAPMO8F1S4'
+2015-12-06 21:26:55 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2LQUAPMO8F1S4','http://www.amazon.com/gp/customer-reviews/R2LQUAPMO8F1S4','B00RW8L5WA','AX6F4AGJLOFD6','5.0','2015-11-9 00:00:00','Nice!','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:26:55 [-] Review Recorded
+2015-12-06 21:26:55 [-] Getting The User ID
+2015-12-06 21:26:55 [-] Getting Review Rating
+2015-12-06 21:26:55 [-] Getting Review Date
+2015-12-06 21:26:55 [-] Getting The Review Text
+2015-12-06 21:26:55 [-] Getting Review Title
+2015-12-06 21:27:00 [-] Getting the Profile HTML for Reviewer ID : A1X45T10B0IZRQ
+2015-12-06 21:27:00 [-] Getting the Reviewer Name.
+2015-12-06 21:27:00 [-] Getting the Country Name.
+2015-12-06 21:27:00 [!] No Location Found.
+2015-12-06 21:27:00 [-] Getting Total Review Count
+2015-12-06 21:27:00 [-] Executing SQL query: SELECT * FROM users WHERE id='A1X45T10B0IZRQ'
+2015-12-06 21:27:00 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1X45T10B0IZRQ','http://www.amazon.com/gp/pdp/profile/A1X45T10B0IZRQ','','Amber Stephens','9','3525781','unused','item','blank',NOW(),NOW())
+2015-12-06 21:27:00 [-] User Recorded
+2015-12-06 21:27:00 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R351SGUPL8ZTD8'
+2015-12-06 21:27:00 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R351SGUPL8ZTD8','http://www.amazon.com/gp/customer-reviews/R351SGUPL8ZTD8','B00RW8L5WA','A1X45T10B0IZRQ','5.0','2015-11-6 00:00:00','I love this bowl! I take my lunch to work, and keep things like oatmeal and soup in my office. I keep the bowl in my desk and it takes up almost no space. The spoon that comes attached to the lid is a little small for regular use, but all in all I\'m very happy with this purchase. Super convenient.','Super Convenient!','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:27:00 [-] Review Recorded
+2015-12-06 21:27:00 [-] Getting The User ID
+2015-12-06 21:27:00 [-] Getting Review Rating
+2015-12-06 21:27:00 [-] Getting Review Date
+2015-12-06 21:27:00 [-] Getting The Review Text
+2015-12-06 21:27:00 [-] Getting Review Title
+2015-12-06 21:27:05 [-] Getting the Profile HTML for Reviewer ID : AJV6AY1HXW3K2
+2015-12-06 21:27:05 [-] Getting the Reviewer Name.
+2015-12-06 21:27:05 [-] Getting the Country Name.
+2015-12-06 21:27:05 [!] No Location Found.
+2015-12-06 21:27:05 [-] Getting Total Review Count
+2015-12-06 21:27:05 [-] Executing SQL query: SELECT * FROM users WHERE id='AJV6AY1HXW3K2'
+2015-12-06 21:27:05 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('AJV6AY1HXW3K2','http://www.amazon.com/gp/pdp/profile/AJV6AY1HXW3K2','','Tedra L Dabler','8','2774951','unused','item','blank',NOW(),NOW())
+2015-12-06 21:27:05 [-] User Recorded
+2015-12-06 21:27:05 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R20LM1LO672BBD'
+2015-12-06 21:27:05 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R20LM1LO672BBD','http://www.amazon.com/gp/customer-reviews/R20LM1LO672BBD','B00RW8L5WA','AJV6AY1HXW3K2','5.0','2015-11-5 00:00:00','Great product','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:27:05 [-] Review Recorded
+2015-12-06 21:27:05 [-] Getting The User ID
+2015-12-06 21:27:05 [-] Getting Review Rating
+2015-12-06 21:27:05 [-] Getting Review Date
+2015-12-06 21:27:05 [-] Getting The Review Text
+2015-12-06 21:27:05 [-] Getting Review Title
+2015-12-06 21:27:10 [-] Getting the Profile HTML for Reviewer ID : A3PNYVNY4FKDXF
+2015-12-06 21:27:10 [-] Getting the Reviewer Name.
+2015-12-06 21:27:10 [-] Getting the Country Name.
+2015-12-06 21:27:10 [!] No Location Found.
+2015-12-06 21:27:10 [-] Getting Total Review Count
+2015-12-06 21:27:10 [-] Executing SQL query: SELECT * FROM users WHERE id='A3PNYVNY4FKDXF'
+2015-12-06 21:27:10 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3PNYVNY4FKDXF','http://www.amazon.com/gp/pdp/profile/A3PNYVNY4FKDXF','','madmollyann','37','36452800','unused','item','blank',NOW(),NOW())
+2015-12-06 21:27:10 [-] User Recorded
+2015-12-06 21:27:10 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R3IZ6WJSS636H6'
+2015-12-06 21:27:10 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R3IZ6WJSS636H6','http://www.amazon.com/gp/customer-reviews/R3IZ6WJSS636H6','B00RW8L5WA','A3PNYVNY4FKDXF','3.0','2015-11-4 00:00:00','This is a great concept. The bowl seems like it will hold up, I like how it collapses for easy storage. The little spoon container is a great way to pack all you need together in one package. However, before I even had a chance to wash this bowl before its first use, one of the clips fell off. It will still work, especially for just keeping it in the fridge, but I\'m not going to trust it with very liquid things, or traveling where it might get jostled around.','Clip fell off.','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:27:10 [-] Review Recorded
+2015-12-06 21:27:10 [-] Getting The User ID
+2015-12-06 21:27:10 [-] Getting Review Rating
+2015-12-06 21:27:10 [-] Getting Review Date
+2015-12-06 21:27:10 [-] Getting The Review Text
+2015-12-06 21:27:10 [-] Getting Review Title
+2015-12-06 21:27:14 [-] Getting the Profile HTML for Reviewer ID : A9AXY68IN9G5F
+2015-12-06 21:27:14 [-] Getting the Reviewer Name.
+2015-12-06 21:27:14 [-] Getting the Country Name.
+2015-12-06 21:27:14 [-] Getting the Location.
+2015-12-06 21:27:14 [-] Getting Total Review Count
+2015-12-06 21:27:14 [-] Executing SQL query: SELECT * FROM users WHERE id='A9AXY68IN9G5F'
+2015-12-06 21:27:14 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A9AXY68IN9G5F','http://www.amazon.com/gp/pdp/profile/A9AXY68IN9G5F','Wheaton, IL USA
+','Jane W','16','1224688','unused','item','blank',NOW(),NOW())
+2015-12-06 21:27:14 [-] User Recorded
+2015-12-06 21:27:14 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R1DDUTHTJ5DJN1'
+2015-12-06 21:27:14 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R1DDUTHTJ5DJN1','http://www.amazon.com/gp/customer-reviews/R1DDUTHTJ5DJN1','B00RW8L5WA','A9AXY68IN9G5F','4.0','2015-11-4 00:00:00','Nice quality item. Secure fit. Easy to clean and store. Fun colors. Would like it to be a little larger but still a good size.','Nice quality item','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:27:14 [-] Review Recorded
+2015-12-06 21:27:20 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=4
+2015-12-06 21:27:20 [-] Getting The User ID
+2015-12-06 21:27:20 [-] Getting Review Rating
+2015-12-06 21:27:20 [-] Getting Review Date
+2015-12-06 21:27:20 [-] Getting The Review Text
+2015-12-06 21:27:20 [-] Getting Review Title
+2015-12-06 21:27:27 [-] Getting the Profile HTML for Reviewer ID : A266URID6CCGER
+2015-12-06 21:27:27 [-] Getting the Reviewer Name.
+2015-12-06 21:27:27 [-] Getting the Country Name.
+2015-12-06 21:27:27 [!] No Location Found.
+2015-12-06 21:27:27 [-] Getting Total Review Count
+2015-12-06 21:27:27 [-] Executing SQL query: SELECT * FROM users WHERE id='A266URID6CCGER'
+2015-12-06 21:27:27 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A266URID6CCGER','http://www.amazon.com/gp/pdp/profile/A266URID6CCGER','','Amazon Customer','38','1277151','unused','item','blank',NOW(),NOW())
+2015-12-06 21:27:27 [-] User Recorded
+2015-12-06 21:27:27 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R2TL6KKO88MS6N'
+2015-12-06 21:27:27 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R2TL6KKO88MS6N','http://www.amazon.com/gp/customer-reviews/R2TL6KKO88MS6N','B00RW8L5WA','A266URID6CCGER','5.0','2015-11-3 00:00:00','Great product and  very cute designed.','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:27:27 [-] Review Recorded
+2015-12-06 21:27:27 [-] Getting The User ID
+2015-12-06 21:27:27 [-] Getting Review Rating
+2015-12-06 21:27:27 [-] Getting Review Date
+2015-12-06 21:27:27 [-] Getting The Review Text
+2015-12-06 21:27:27 [-] Getting Review Title
+2015-12-06 21:27:34 [-] Getting the Profile HTML for Reviewer ID : A39FY3IH7AE0YL
+2015-12-06 21:27:34 [!] Error Getting the Reviewer Name.
+2015-12-06 21:27:34 [-] Getting the Country Name.
+2015-12-06 21:27:34 [!] No Location Found.
+2015-12-06 21:27:34 [-] Getting Total Review Count
+2015-12-06 21:27:34 [-] Executing SQL query: SELECT * FROM users WHERE id='A39FY3IH7AE0YL'
+2015-12-06 21:27:34 [-] Executing SQL query: UPDATE users SET location='', name='', review_count='330', ranking='', collection_timestamp=NOW() WHERE id='A39FY3IH7AE0YL' 
+2015-12-06 21:27:34 [-] User Updated
+2015-12-06 21:27:34 [-] User Recorded
+2015-12-06 21:27:34 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R1Q8IRKE04YLOM'
+2015-12-06 21:27:34 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R1Q8IRKE04YLOM','http://www.amazon.com/gp/customer-reviews/R1Q8IRKE04YLOM','B00RW8L5WA','A39FY3IH7AE0YL','4.0','2015-11-3 00:00:00','Nice size, I love  the idea that it\'s collapsible and the spoon  storage.  But for me it\'s a little hard to open and get the spoon out . Also wish there was more than one in the package. I received a discount for this product in exchange for my honest and unbiased review','Nice size, I love the idea that it\'s collapsible ...','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:27:34 [-] Review Recorded
+2015-12-06 21:27:34 [-] Getting The User ID
+2015-12-06 21:27:34 [-] Getting Review Rating
+2015-12-06 21:27:34 [-] Getting Review Date
+2015-12-06 21:27:34 [-] Getting The Review Text
+2015-12-06 21:27:34 [-] Getting Review Title
+2015-12-06 21:27:40 [-] Getting the Profile HTML for Reviewer ID : A1QAW1LR0WCQTK
+2015-12-06 21:27:40 [-] Getting the Reviewer Name.
+2015-12-06 21:27:40 [-] Getting the Country Name.
+2015-12-06 21:27:40 [!] No Location Found.
+2015-12-06 21:27:40 [-] Getting Total Review Count
+2015-12-06 21:27:40 [-] Executing SQL query: SELECT * FROM users WHERE id='A1QAW1LR0WCQTK'
+2015-12-06 21:27:40 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1QAW1LR0WCQTK','http://www.amazon.com/gp/pdp/profile/A1QAW1LR0WCQTK','','Lisa DeSantis','104','763436','unused','item','blank',NOW(),NOW())
+2015-12-06 21:27:40 [-] User Recorded
+2015-12-06 21:27:40 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='RN4VG3ZJQSQL6'
+2015-12-06 21:27:40 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RN4VG3ZJQSQL6','http://www.amazon.com/gp/customer-reviews/RN4VG3ZJQSQL6','B00RW8L5WA','A1QAW1LR0WCQTK','5.0','2015-11-1 00:00:00','Love this bowl, it will be perfect for so many different. Things. I love how the lid snaps on','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:27:40 [-] Review Recorded
+2015-12-06 21:27:40 [-] Getting The User ID
+2015-12-06 21:27:40 [-] Getting Review Rating
+2015-12-06 21:27:40 [-] Getting Review Date
+2015-12-06 21:27:40 [-] Getting The Review Text
+2015-12-06 21:27:40 [-] Getting Review Title
+2015-12-06 21:27:40 [-] Getting Review Votes
+2015-12-06 21:27:48 [-] Getting the Profile HTML for Reviewer ID : A3JVRLX6TORM06
+2015-12-06 21:27:48 [!] Error Getting the Reviewer Name.
+2015-12-06 21:27:48 [-] Getting the Country Name.
+2015-12-06 21:27:48 [!] No Location Found.
+2015-12-06 21:27:48 [-] Getting Total Review Count
+2015-12-06 21:27:48 [-] Executing SQL query: SELECT * FROM users WHERE id='A3JVRLX6TORM06'
+2015-12-06 21:27:48 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A3JVRLX6TORM06','http://www.amazon.com/gp/pdp/profile/A3JVRLX6TORM06','','','31','651681','unused','item','blank',NOW(),NOW())
+2015-12-06 21:27:48 [-] User Recorded
+2015-12-06 21:27:48 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R22FN7YFAL4KFR'
+2015-12-06 21:27:48 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R22FN7YFAL4KFR','http://www.amazon.com/gp/customer-reviews/R22FN7YFAL4KFR','B00RW8L5WA','A3JVRLX6TORM06','3.0','2015-10-13 00:00:00','In my opinion not worth paying more than $12 for. Maybe worth $6 or $8. I purchased one bowl in green. I was excited that it might be large enough to hold make ahead and salads and lunches. If it was great I planned to buy more.\nOne reviewer had said it was big enough for a large salad for one but I guess large salad for one is very relative because these are no larger than you average cereal bowl. I have standard size corelle bowls at home and this bowl looks like it might hold just a small bit more that those. Most silicone ware I\'ve found is on the smaller size though. At least the ones that have lids. This alone wouldn\'t have made fot the 3 star rating. The real disapointment is that the plastic lid and the black plastic bit that runs around the top of the bowl making a stiff ring for the lid to clip onto both feel cheap. You can feel the seams in the plastic like on cheap dollar store dishes and the tabs feel weak, like they would break after a while of daily use.\nThe spoon fits into an indentation in the lid that has a somewhat hard to remove lid. I didn\'t realize this when purchasing but that\'s probably my fault. I would have prefered a completely flat lid. Easier to clean.\nAlso the spoon is pretty flat and maybe only big enough to be useful for a toddler or someone who likes to eat ice cream or pudding in very small bites. I\'m an average woman in her twenties and don\'t usually use overly large flatware so this is no exaggeration.\nThe color is spot on. A bright kelly green.\nAll in all you might love it. Just be aware of the very average size, that the plastic is not high quality and the spoon is useless for most. A large salad bowl would need to be twice as big for me.','Not great...','2','2','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:27:48 [-] Review Recorded
+2015-12-06 21:27:48 [-] Getting The User ID
+2015-12-06 21:27:48 [-] Getting Review Rating
+2015-12-06 21:27:48 [-] Getting Review Date
+2015-12-06 21:27:48 [-] Getting The Review Text
+2015-12-06 21:27:48 [-] Getting Review Title
+2015-12-06 21:27:54 [-] Getting the Profile HTML for Reviewer ID : A1Z9D6B0D55KEE
+2015-12-06 21:27:54 [-] Getting the Reviewer Name.
+2015-12-06 21:27:54 [-] Getting the Country Name.
+2015-12-06 21:27:54 [!] No Location Found.
+2015-12-06 21:27:54 [-] Getting Total Review Count
+2015-12-06 21:27:54 [-] Executing SQL query: SELECT * FROM users WHERE id='A1Z9D6B0D55KEE'
+2015-12-06 21:27:54 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1Z9D6B0D55KEE','http://www.amazon.com/gp/pdp/profile/A1Z9D6B0D55KEE','','Vicki','321','624058','unused','item','blank',NOW(),NOW())
+2015-12-06 21:27:54 [-] User Recorded
+2015-12-06 21:27:54 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='RIPJGS66Q9ONN'
+2015-12-06 21:27:54 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RIPJGS66Q9ONN','http://www.amazon.com/gp/customer-reviews/RIPJGS66Q9ONN','B00RW8L5WA','A1Z9D6B0D55KEE','5.0','2015-7-29 00:00:00','Nice size,  works well for big salad for one.','Nice size, works well for big salad for one','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:27:54 [-] Review Recorded
+2015-12-06 21:27:54 [-] Getting The User ID
+2015-12-06 21:27:54 [-] Getting Review Rating
+2015-12-06 21:27:54 [-] Getting Review Date
+2015-12-06 21:27:54 [-] Getting The Review Text
+2015-12-06 21:27:54 [-] Getting Review Title
+2015-12-06 21:28:01 [-] Getting the Profile HTML for Reviewer ID : A9P1YNJ6O3AJY
+2015-12-06 21:28:01 [-] Getting the Reviewer Name.
+2015-12-06 21:28:01 [-] Getting the Country Name.
+2015-12-06 21:28:01 [!] No Location Found.
+2015-12-06 21:28:01 [-] Getting Total Review Count
+2015-12-06 21:28:01 [-] Executing SQL query: SELECT * FROM users WHERE id='A9P1YNJ6O3AJY'
+2015-12-06 21:28:01 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A9P1YNJ6O3AJY','http://www.amazon.com/gp/pdp/profile/A9P1YNJ6O3AJY','','ricardas','86','36370493','unused','item','blank',NOW(),NOW())
+2015-12-06 21:28:01 [-] User Recorded
+2015-12-06 21:28:01 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='RVGR04WLP0XCK'
+2015-12-06 21:28:01 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('RVGR04WLP0XCK','http://www.amazon.com/gp/customer-reviews/RVGR04WLP0XCK','B00RW8L5WA','A9P1YNJ6O3AJY','5.0','2015-7-15 00:00:00','love it','Five Stars','0','0','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:28:01 [-] Review Recorded
+2015-12-06 21:28:01 [-] Getting The User ID
+2015-12-06 21:28:01 [-] Getting Review Rating
+2015-12-06 21:28:01 [-] Getting Review Date
+2015-12-06 21:28:01 [-] Getting The Review Text
+2015-12-06 21:28:01 [-] Getting Review Title
+2015-12-06 21:28:01 [-] Getting Review Votes
+2015-12-06 21:28:08 [-] Getting the Profile HTML for Reviewer ID : A1I2OY5C4YTS7D
+2015-12-06 21:28:08 [-] Getting the Reviewer Name.
+2015-12-06 21:28:08 [-] Getting the Country Name.
+2015-12-06 21:28:08 [!] No Location Found.
+2015-12-06 21:28:08 [-] Getting Total Review Count
+2015-12-06 21:28:08 [-] Executing SQL query: SELECT * FROM users WHERE id='A1I2OY5C4YTS7D'
+2015-12-06 21:28:08 [-] Executing SQL query: INSERT INTO users(id,url,location,name,review_count,ranking,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('A1I2OY5C4YTS7D','http://www.amazon.com/gp/pdp/profile/A1I2OY5C4YTS7D','','Amber Smith','11','2135291','unused','item','blank',NOW(),NOW())
+2015-12-06 21:28:08 [-] User Recorded
+2015-12-06 21:28:08 [-] Executing SQL query: SELECT * FROM reviews WHERE referer_id='B00RW8L5WA' AND id='R6U0M13YABKLA'
+2015-12-06 21:28:08 [-] Executing SQL query: INSERT INTO reviews(id,url,item_id,user_id,rating,date,text,title,helpful_yes,helpful_total,verified_purchaser,image_count,video,state,referer_type,referer_id,run_timestamp,collection_timestamp) 
+	VALUES('R6U0M13YABKLA','http://www.amazon.com/gp/customer-reviews/R6U0M13YABKLA','B00RW8L5WA','A1I2OY5C4YTS7D','5.0','2015-6-1 00:00:00','Perfect for mason jar salad lunches. Dishwasher safe and durable.','Five Stars','1','1','1','unused','unused','unused','item','B00RW8L5WA',NOW(),NOW())
+2015-12-06 21:28:08 [-] Review Recorded
+2015-12-06 21:28:14 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=5
+2015-12-06 21:28:21 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=6
+2015-12-06 21:28:25 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=7
+2015-12-06 21:28:30 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=8
+2015-12-06 21:28:34 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=9
+2015-12-06 21:28:41 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=10
+2015-12-06 21:28:47 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=11
+2015-12-06 21:28:52 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=12
+2015-12-06 21:28:55 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=13
+2015-12-06 21:29:03 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=14
+2015-12-06 21:29:09 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=15
+2015-12-06 21:29:16 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=16
+2015-12-06 21:29:22 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=17
+2015-12-06 21:29:29 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=18
+2015-12-06 21:29:36 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=19
+2015-12-06 21:29:42 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=20
+2015-12-06 21:29:49 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=21
+2015-12-06 21:29:54 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=22
+2015-12-06 21:30:00 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=23
+2015-12-06 21:30:06 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=24
+2015-12-06 21:30:11 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=25
+2015-12-06 21:30:15 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=26
+2015-12-06 21:30:23 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=27
+2015-12-06 21:30:27 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=28
+2015-12-06 21:30:32 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=29
+2015-12-06 21:30:39 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=30
+2015-12-06 21:30:45 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=31
+2015-12-06 21:30:50 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=32
+2015-12-06 21:30:57 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=33
+2015-12-06 21:31:03 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=34
+2015-12-06 21:31:10 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=35
+2015-12-06 21:31:15 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=36
+2015-12-06 21:31:22 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=37
+2015-12-06 21:31:27 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=38
+2015-12-06 21:31:33 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=39
+2015-12-06 21:31:41 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=40
+2015-12-06 21:31:46 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=41
+2015-12-06 21:31:50 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=42
+2015-12-06 21:31:55 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=43
+2015-12-06 21:32:01 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=44
+2015-12-06 21:32:07 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=45
+2015-12-06 21:32:14 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=46
+2015-12-06 21:32:19 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=47
+2015-12-06 21:32:26 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=48
+2015-12-06 21:32:33 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=49
+2015-12-06 21:32:38 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=50
+2015-12-06 21:32:43 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=51
+2015-12-06 21:32:48 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=52
+2015-12-06 21:32:53 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=53
+2015-12-06 21:32:58 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=54
+2015-12-06 21:33:02 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=55
+2015-12-06 21:33:09 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=56
+2015-12-06 21:33:14 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=57
+2015-12-06 21:33:19 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=58
+2015-12-06 21:33:23 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=59
+2015-12-06 21:33:29 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=60
+2015-12-06 21:33:36 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=61
+2015-12-06 21:33:41 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=62
+2015-12-06 21:33:47 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=63
+2015-12-06 21:33:54 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=64
+2015-12-06 21:34:01 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=65
+2015-12-06 21:34:07 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=66
+2015-12-06 21:34:12 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=67
+2015-12-06 21:34:19 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=68
+2015-12-06 21:34:23 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=69
+2015-12-06 21:34:31 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=70
+2015-12-06 21:34:36 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=71
+2015-12-06 21:34:42 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=72
+2015-12-06 21:34:49 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=73
+2015-12-06 21:34:54 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=74
+2015-12-06 21:34:58 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=75
+2015-12-06 21:35:04 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=76
+2015-12-06 21:35:09 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=77
+2015-12-06 21:35:15 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=78
+2015-12-06 21:35:21 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=79
+2015-12-06 21:35:28 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=80
+2015-12-06 21:35:32 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=81
+2015-12-06 21:35:36 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=82
+2015-12-06 21:35:41 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=83
+2015-12-06 21:35:46 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=84
+2015-12-06 21:35:51 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=85
+2015-12-06 21:35:57 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=86
+2015-12-06 21:36:01 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=87
+2015-12-06 21:36:06 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=88
+2015-12-06 21:36:11 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=89
+2015-12-06 21:36:17 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=90
+2015-12-06 21:36:22 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=91
+2015-12-06 21:36:26 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=92
+2015-12-06 21:36:33 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=93
+2015-12-06 21:36:39 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=94
+2015-12-06 21:36:46 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=95
+2015-12-06 21:36:53 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=96
+2015-12-06 21:36:56 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=97
+2015-12-06 21:37:01 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=98
+2015-12-06 21:37:05 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=99
+2015-12-06 21:37:10 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=100
+2015-12-06 21:37:15 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=101
+2015-12-06 21:37:21 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=102
+2015-12-06 21:37:28 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=103
+2015-12-06 21:37:32 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=104
+2015-12-06 21:37:36 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=105
+2015-12-06 21:37:44 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=106
+2015-12-06 21:37:51 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=107
+2015-12-06 21:37:57 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=108
+2015-12-06 21:38:03 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=109
+2015-12-06 21:38:08 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=110
+2015-12-06 21:38:12 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=111
+2015-12-06 21:38:19 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=112
+2015-12-06 21:38:23 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=113
+2015-12-06 21:38:28 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=114
+2015-12-06 21:38:32 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=115
+2015-12-06 21:38:37 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=116
+2015-12-06 21:38:43 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=117
+2015-12-06 21:38:49 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=118
+2015-12-06 21:38:56 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=119
+2015-12-06 21:39:00 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=120
+2015-12-06 21:39:08 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=121
+2015-12-06 21:39:13 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=122
+2015-12-06 21:39:18 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=123
+2015-12-06 21:39:24 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=124
+2015-12-06 21:39:32 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=125
+2015-12-06 21:39:37 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=126
+2015-12-06 21:39:42 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=127
+2015-12-06 21:39:46 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=128
+2015-12-06 21:39:53 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=129
+2015-12-06 21:40:00 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=130
+2015-12-06 21:40:06 [-] Getting Page : http://www.amazon.com/product-reviews/B00RW8L5WA/?sortBy=recent&pageNumber=131
